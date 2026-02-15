@@ -23,7 +23,7 @@ While the mod supports swapping vanilla tasks, the highlight feature is the abil
 
 ## Usage
 TaskEngine provides an easy interface to swap your tasks and create your own custom tasks. <br>
-It is reccomended that you use the **UnityExplorer** mod to analyze the game. <br>
+It is recomended that you use the **UnityExplorer** mod to analyze the game. <br>
 >[!IMPORTANT]
 >Both of the features require the user to have, <br>
 >Basic knowledge of C# and Unity. <br>

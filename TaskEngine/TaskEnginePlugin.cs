@@ -5,6 +5,8 @@ using BepInEx.Logging;
 using BepInEx.Unity.IL2CPP;
 using HarmonyLib;
 using Reactor;
+using Reactor.Networking;
+using Reactor.Networking.Attributes;
 using Reactor.Utilities;
 using TaskEngine.TaskHelpers;
 
@@ -20,6 +22,7 @@ namespace TaskEngine;
 [BepInAutoPlugin]
 [BepInProcess("Among Us.exe")]
 [BepInDependency(ReactorPlugin.Id)]
+[ReactorModFlags(ModFlags.None)]
 public partial class TaskEnginePlugin : BasePlugin
 {
     public Harmony Harmony { get; } = new(Id);

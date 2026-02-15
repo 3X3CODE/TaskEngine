@@ -1,12 +1,13 @@
 # TaskEngine
-TaskEngine is an Among Us mod that enhances your task experience in Among Us. While the mod supports swapping vanilla tasks, the highlight feature is the ability of adding your own **Custom Tasks** into the game.<br>
+TaskEngine is an Among Us mod that enhances your task experience in Among Us. 
+While the mod supports swapping vanilla tasks, the highlight feature is the ability of adding your own **Custom Tasks** into the game.<br>
 >[!WARNING]
 >This mod is not known to work with **LevelImposter**. However we are researching the possibility.
 
 ## Features
 - Swap vanilla tasks <br>
 - Add custom tasks <br>
-<br>
+
 *More features coming soon!*
 
 > [!IMPORTANT]
@@ -16,7 +17,7 @@ TaskEngine is an Among Us mod that enhances your task experience in Among Us. Wh
 
 ## Installation Guide
 - Unzip the **.zip** file in the latest release. <br>
-- Copy and paste the Mod file (**TaskEngine.dll**) and the **CustomTasks** folder into your `BepInEx/plugins` folder. <br>
+- Copy and paste the Mod file **TaskEngine.dll** and the **CustomTasks** folder into your `BepInEx/plugins` folder. <br>
 - The mod will automatically generate your **taskConfig.xml** file once you join a practice session. <br>
 - See the guides below on how to use the mod's features. <br>
 
@@ -24,18 +25,18 @@ TaskEngine is an Among Us mod that enhances your task experience in Among Us. Wh
 TaskEngine provides an easy interface to swap your tasks and create your own custom tasks. <br>
 It is reccomended that you use the **UnityExplorer** mod to analyze the game. <br>
 >[!IMPORTANT]
->Both of the features require the user to have,
->Basic knowledge of C# and Unity.
->An IDE ( for Custom Tasks ).
+>Both of the features require the user to have, <br>
+>Basic knowledge of C# and Unity. <br>
+>An IDE ( for Custom Tasks ). <br>
 
 **The Unity version required is `2022.3.44f1`**
 
-In each CustomTask and ReplaceTask section in the config, you can set the edit to be active or inactive.
+In each CustomTask and ReplaceTask section in the config, you can set the edit to be active or inactive. <br>
 You also have a master active statement to deactivate the entire config.
 
 You can add as many CustomTasks or tasks to replace by simply adding more **CustomTasks** or **ReplaceTasks** blocks into the config.
 
-### Swap Tasks
+### Swap Tasks <br>
 - **Ship:** this is the map you want your changes to happen. Values are, *Skeld, Mira, Polus, Airship, Fungle*
 - **firstTask:** first task you want to swap. Takes a TaskType value.
 - **secondTask:** second task, the task you want to swap the first task with. Also takes a TaskType value.
@@ -47,20 +48,22 @@ You can add as many CustomTasks or tasks to replace by simply adding more **Cust
 - **showFirst:** shows the step of the first task.
 - **showSecond:** shows the step of the second task.
 
-### Custom Tasks
-To make a custom task, you must have Minigame prefabs and Minigame scripts.
-TaskEngine will load them into the game for you.
-Please note that the mod only supports two GameObjects and two scripts for now.
-By default, the first script is added to the first GameObject, and vice versa for the second. A second script will not exist if you dont have a second GameObject specified. Unfortunately we don't have a way of changine these settings yet.
+### Custom Tasks <br>
+To make a custom task, you must have Minigame prefabs and Minigame scripts. <br>
+TaskEngine will load them into the game for you. <br>
+Please note that the mod only supports two GameObjects and two scripts for now. <br>
+By default, the first script is added to the first GameObject, and vice versa for the second. <br>
+A second script will not exist if you dont have a second GameObject specified. Unfortunately we don't have a way of changing these settings yet.
 
-#### Script making
-- Start by creating a new Class Library project and importing the required references. The project does not need a BepInEx plugin class. Example here.
+#### Script making <br>
+- Start by creating a new Class Library project and importing the required references, [Example](https://github.com/3X3CODE/TaskEngine/blob/master/Examples/ShootSubmarines/ShootSubmarines.csproj).
+- The project does not need a BepInEx plugin class. [Example](https://github.com/3X3CODE/TaskEngine/blob/master/Examples/ShootSubmarines/ShootSubmarinesMinigame.cs).
 - The main minigame class must be **Public** and must derive from **Minigame**. The main minigame class is **necessary**.
 - You can include a second class if your Minigame depends on it, otherwise you will not need to specify this.
-- The second class must also be public.
+- The second class must also be public, [Example](https://github.com/3X3CODE/TaskEngine/blob/master/Examples/ShootSubmarines/Submarine.cs).
 - Make sure your two scripts are well contained so they can find eachother automatically. By default, TaskEngine places the second GameObject under the main one, keep in mind that it is inactive. (You can see a great example of this from how the example task Minigame class automatically finds the script, **Submarine**)
-- If you want to analyze the example task further, you can use a tool like **dnSpy** to analyze the `ShootSubmarines.dll` file, or using its source code.
-- The unity project for the custom minigame can also be found here.
+- If you want to analyze the example task further, you can use a tool like **dnSpy** to analyze the `ShootSubmarines.dll` file, or using its [source code](https://github.com/3X3CODE/TaskEngine/tree/master/Examples/ShootSubmarines).
+- The unity project for the custom minigame can also be found [here](https://github.com/3X3CODE/TaskEngine/tree/master/TaskEngineUnity).
 - Once you are done writing the scripts, be sure to compile it into a **.dll** file.
 - Make sure to build your prefabs into AssetBundles, I reccomend using the unity package **AssetBundle Browser** for this.
 

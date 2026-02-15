@@ -1,8 +1,13 @@
 # TaskEngine
 An Among Us mod that enhances your task experience <br>
+<br>
+>[!WARNING]
+>This mod has not been tested with LevelImposter, therefore issues can be expected.
+<br>
 ## Features
 Swap vanilla tasks <br>
 Add custom tasks <br>
+<br>
 <br>
 *More features coming soon!*
 

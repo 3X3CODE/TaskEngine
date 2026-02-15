@@ -1,0 +1,325 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.44f1 (c3ae09b9f03c) revision 12824073'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22000) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 12190 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+F:\Games\Among Us\2022.3.44f1\Editor\Unity 2022.3.44f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+F:/Games/Among Us/Projects/TaskLoader/TaskLoaderUnity
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+51719
+Successfully changed project path to: F:/Games/Among Us/Projects/TaskLoader/TaskLoaderUnity
+F:/Games/Among Us/Projects/TaskLoader/TaskLoaderUnity
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [13436]  Target information:
+
+Player connection [13436] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [13436] Host joined alternative multi-casting on [225.0.0.222:34997]...
+[PhysX] Initialized MultithreadedTaskDispatcher with 3 workers.
+Refreshing native plugins compatible for Editor in 756.32 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.44f1 (c3ae09b9f03c)
+[Subsystems] Discovering subsystems at path F:/Games/Among Us/2022.3.44f1/Editor/Unity 2022.3.44f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path F:/Games/Among Us/Projects/TaskLoader/TaskLoaderUnity/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) HD Graphics 620 (ID=0x5916)
+    Vendor:   Intel
+    VRAM:     6095 MB
+    Driver:   27.20.100.9171
+Initialize mono
+Mono path[0] = 'F:/Games/Among Us/2022.3.44f1/Editor/Unity 2022.3.44f1/Editor/Data/Managed'
+Mono path[1] = 'F:/Games/Among Us/2022.3.44f1/Editor/Unity 2022.3.44f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'F:/Games/Among Us/2022.3.44f1/Editor/Unity 2022.3.44f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56520
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: F:/Games/Among Us/2022.3.44f1/Editor/Unity 2022.3.44f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: F:/Games/Among Us/2022.3.44f1/Editor/Unity 2022.3.44f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.092168 seconds.
+- Loaded All Assemblies, in  3.003 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.428 seconds
+Domain Reload Profiling: 4431ms
+	BeginReloadAssembly (1733ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (174ms)
+	RebuildNativeTypeToScriptingClass (45ms)
+	initialDomainReloadingComplete (289ms)
+	LoadAllAssembliesAndSetupDomain (759ms)
+		LoadAssemblies (1767ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (719ms)
+			TypeCache.Refresh (716ms)
+				TypeCache.ScanAssembly (652ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (1430ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1185ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (278ms)
+			SetLoadedEditorAssemblies (25ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (7ms)
+			ProcessInitializeOnLoadAttributes (602ms)
+			ProcessInitializeOnLoadMethodAttributes (273ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  3.432 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.137 seconds
+Domain Reload Profiling: 4567ms
+	BeginReloadAssembly (1659ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (25ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (84ms)
+	RebuildCommonClasses (178ms)
+	RebuildNativeTypeToScriptingClass (38ms)
+	initialDomainReloadingComplete (134ms)
+	LoadAllAssembliesAndSetupDomain (1420ms)
+		LoadAssemblies (2383ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (397ms)
+			TypeCache.Refresh (350ms)
+				TypeCache.ScanAssembly (314ms)
+			ScanForSourceGeneratedMonoScriptInfo (32ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (1138ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (844ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (33ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (99ms)
+			ProcessInitializeOnLoadAttributes (663ms)
+			ProcessInitializeOnLoadMethodAttributes (38ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.37 seconds
+Refreshing native plugins compatible for Editor in 9.78 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3200 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (27.1 KB). Loaded Objects now: 3669.
+Memory consumption went from 120.4 MB to 120.3 MB.
+Total: 6.919600 ms (FindLiveObjects: 0.347800 ms CreateObjectMapping: 0.285400 ms MarkObjects: 6.222700 ms  DeleteObjects: 0.061900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 13074.342400 seconds.
+  path: Assets/ExampleTasks/ShootSubmarines/Submarine.prefab
+  artifactKey: Guid(a82ac701cb9f3644296becd7087ba3b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleTasks/ShootSubmarines/Submarine.prefab using Guid(a82ac701cb9f3644296becd7087ba3b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 3 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 3 workers.
+ -> (artifact id: 'ae93b82fe5bef3f93c1095f056ca1f1e') in 0.350924 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/ExampleTasks/ShootSubmarines/ShootSubmarinesMinigame.prefab
+  artifactKey: Guid(ee7104bfad540ce43aff2165902808ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleTasks/ShootSubmarines/ShootSubmarinesMinigame.prefab using Guid(ee7104bfad540ce43aff2165902808ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 3 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 3 workers.
+ -> (artifact id: '9565f6afb62b4238ee80fa085deb37c9') in 0.112934 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 27
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/ExampleTasks/ShootSubmarines/ShootSubmarinesTask.prefab
+  artifactKey: Guid(d79f101fadfaab3409a675fb3e10e2d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleTasks/ShootSubmarines/ShootSubmarinesTask.prefab using Guid(d79f101fadfaab3409a675fb3e10e2d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 3 workers.
+ -> (artifact id: 'fea39692ccda5618999c72010cfc4fcc') in 0.004452 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 5.154313 seconds.
+  path: Assets/ExampleTasks/ShootSubmarines/Submarine.prefab
+  artifactKey: Guid(a82ac701cb9f3644296becd7087ba3b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleTasks/ShootSubmarines/Submarine.prefab using Guid(a82ac701cb9f3644296becd7087ba3b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 3 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 3 workers.
+ -> (artifact id: '26cb5ddca919ab9f49163ba0a75a32e8') in 0.141358 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 10.777135 seconds.
+  path: Assets/ExampleTasks/ShootSubmarines/Submarine.prefab
+  artifactKey: Guid(a82ac701cb9f3644296becd7087ba3b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleTasks/ShootSubmarines/Submarine.prefab using Guid(a82ac701cb9f3644296becd7087ba3b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 3 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 3 workers.
+ -> (artifact id: '2569f19a99cb089f9e988e93ad1ce6d2') in 0.078215 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 4.493138 seconds.
+  path: Assets/ExampleTasks/ShootSubmarines/Submarine.prefab
+  artifactKey: Guid(a82ac701cb9f3644296becd7087ba3b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleTasks/ShootSubmarines/Submarine.prefab using Guid(a82ac701cb9f3644296becd7087ba3b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 3 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 3 workers.
+ -> (artifact id: 'bcb2fa02fb53dbd33a59ce2947b1ad9f') in 0.082336 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 1.518593 seconds.
+  path: Assets/ExampleTasks/ShootSubmarines/Submarine.prefab
+  artifactKey: Guid(a82ac701cb9f3644296becd7087ba3b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleTasks/ShootSubmarines/Submarine.prefab using Guid(a82ac701cb9f3644296becd7087ba3b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 3 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 3 workers.
+ -> (artifact id: '4474c8d8546a3f171dde48d2e49af730') in 0.107006 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 26.692609 seconds.
+  path: Assets/ExampleTasks/ShootSubmarines/Submarine.prefab
+  artifactKey: Guid(a82ac701cb9f3644296becd7087ba3b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleTasks/ShootSubmarines/Submarine.prefab using Guid(a82ac701cb9f3644296becd7087ba3b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 3 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 3 workers.
+ -> (artifact id: '908e26564fdcc0e2be244a9021134caf') in 0.713771 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 30.790636 seconds.
+  path: Assets/ExampleTasks/ShootSubmarines/Submarine.prefab
+  artifactKey: Guid(a82ac701cb9f3644296becd7087ba3b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleTasks/ShootSubmarines/Submarine.prefab using Guid(a82ac701cb9f3644296becd7087ba3b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 3 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 3 workers.
+ -> (artifact id: 'f07eb1d7ef60c49717425f7eb0de5605') in 0.133387 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 7.42 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2 unused Assets / (2.1 KB). Loaded Objects now: 3678.
+Memory consumption went from 73.9 MB to 73.9 MB.
+Total: 8.765700 ms (FindLiveObjects: 0.357000 ms CreateObjectMapping: 0.322800 ms MarkObjects: 8.030300 ms  DeleteObjects: 0.053600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 743.142508 seconds.
+  path: Assets/ExampleTasks/ShootSubmarines/ShootSubmarinesMinigame.prefab
+  artifactKey: Guid(ee7104bfad540ce43aff2165902808ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleTasks/ShootSubmarines/ShootSubmarinesMinigame.prefab using Guid(ee7104bfad540ce43aff2165902808ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 3 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 3 workers.
+ -> (artifact id: 'ecfce918d1ff7b8f78bd38c0a21d51f8') in 2.745250 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time since last request: 15.623533 seconds.
+  path: Assets/ExampleTasks/ShootSubmarines/ShootSubmarinesMinigame.prefab
+  artifactKey: Guid(ee7104bfad540ce43aff2165902808ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleTasks/ShootSubmarines/ShootSubmarinesMinigame.prefab using Guid(ee7104bfad540ce43aff2165902808ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 3 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 3 workers.
+ -> (artifact id: 'a82c2757e2a93a55dcdd945a80352a42') in 1.337966 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time since last request: 34.745863 seconds.
+  path: Assets/ExampleTasks/ShootSubmarines/ShootSubmarinesMinigame.prefab
+  artifactKey: Guid(ee7104bfad540ce43aff2165902808ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleTasks/ShootSubmarines/ShootSubmarinesMinigame.prefab using Guid(ee7104bfad540ce43aff2165902808ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 3 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 3 workers.
+ -> (artifact id: '7f045489e479e6ffdbf3040fccd4c15d') in 0.070707 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 28

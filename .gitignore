@@ -1,0 +1,9 @@
+bin/
+obj/
+.idea/
+TaskEngine.sln.DotSettings.user
+[Ll]ibrary/
+[Tt]emp/
+[Bb]in/
+*.dll
+.plastic/

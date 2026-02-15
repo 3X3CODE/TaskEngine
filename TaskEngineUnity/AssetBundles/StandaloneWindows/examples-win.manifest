@@ -1,0 +1,60 @@
+ManifestFileVersion: 0
+CRC: 1251708731
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 0d168dfb2d7c69ffeb8315c76723dcc1
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: aaf6b03716d488495d1b3d67aeae04c3
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 0d168dfb2d7c69ffeb8315c76723dcc1
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 50
+  Script: {instanceID: 0}
+- Class: 58
+  Script: {instanceID: 0}
+- Class: 60
+  Script: {instanceID: 0}
+- Class: 61
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 2f3d049f58c2b7741a6d7c860223ebfa, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 4962bebc69442aa41a195c55448e0091, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 212
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+- Class: 331
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers:
+- AssemblyName: UnityEngine.CoreModule
+  ClassName: UnityEngine.Events.ArgumentCache
+- AssemblyName: UnityEngine.CoreModule
+  ClassName: UnityEngine.Events.PersistentCallGroup
+- AssemblyName: UnityEngine.CoreModule
+  ClassName: UnityEngine.Events.PersistentListenerMode
+- AssemblyName: UnityEngine.CoreModule
+  ClassName: UnityEngine.Events.UnityEvent
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.Button/ButtonClickedEvent
+Assets:
+- Assets/ExampleTasks/ShootSubmarines/ShootSubmarinesTask.prefab
+- Assets/ExampleTasks/ShootSubmarines/Submarine.prefab
+- Assets/ExampleTasks/ShootSubmarines/ShootSubmarinesMinigame.prefab
+Dependencies: []

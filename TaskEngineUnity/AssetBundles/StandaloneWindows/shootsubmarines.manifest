@@ -1,0 +1,41 @@
+ManifestFileVersion: 0
+CRC: 2289919697
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: d3dc9c21c251a9dfc025a2eb661ebc47
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 952dd83c4233e693fa5d813b819ac91f
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: d3dc9c21c251a9dfc025a2eb661ebc47
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 50
+  Script: {instanceID: 0}
+- Class: 60
+  Script: {instanceID: 0}
+- Class: 61
+  Script: {instanceID: 0}
+- Class: 212
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+- Class: 331
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/ExampleTasks/ShootSubmarines/Submarine.prefab
+- Assets/ExampleTasks/ShootSubmarines/ShootSubmarinesMinigame.prefab
+Dependencies: []

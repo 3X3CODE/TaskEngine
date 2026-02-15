@@ -1,0 +1,1297 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.44f1 (c3ae09b9f03c) revision 12824073'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22000) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 12190 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+F:\Games\Among Us\2022.3.44f1\Editor\Unity 2022.3.44f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+F:/Games/Among Us/Projects/TaskEngine/TaskEngineUnity
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+59654
+Successfully changed project path to: F:/Games/Among Us/Projects/TaskEngine/TaskEngineUnity
+F:/Games/Among Us/Projects/TaskEngine/TaskEngineUnity
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [13056]  Target information:
+
+Player connection [13056]  * "[IP] 172.20.10.14 [Port] 0 [Flags] 2 [Guid] 1532626325 [EditorId] 1532626325 [Version] 1048832 [Id] WindowsEditor(7,Jayanath-LAPTOP-HP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [13056] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [13056] Host joined alternative multi-casting on [225.0.0.222:34997]...
+[PhysX] Initialized MultithreadedTaskDispatcher with 3 workers.
+Refreshing native plugins compatible for Editor in 6004.95 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.44f1 (c3ae09b9f03c)
+[Subsystems] Discovering subsystems at path F:/Games/Among Us/2022.3.44f1/Editor/Unity 2022.3.44f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path F:/Games/Among Us/Projects/TaskEngine/TaskEngineUnity/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) HD Graphics 620 (ID=0x5916)
+    Vendor:   Intel
+    VRAM:     6095 MB
+    Driver:   27.20.100.9171
+Initialize mono
+Mono path[0] = 'F:/Games/Among Us/2022.3.44f1/Editor/Unity 2022.3.44f1/Editor/Data/Managed'
+Mono path[1] = 'F:/Games/Among Us/2022.3.44f1/Editor/Unity 2022.3.44f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'F:/Games/Among Us/2022.3.44f1/Editor/Unity 2022.3.44f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56152
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: F:/Games/Among Us/2022.3.44f1/Editor/Unity 2022.3.44f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: F:/Games/Among Us/2022.3.44f1/Editor/Unity 2022.3.44f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.038198 seconds.
+- Loaded All Assemblies, in  2.721 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.760 seconds
+Domain Reload Profiling: 3479ms
+	BeginReloadAssembly (1166ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (2ms)
+	RebuildCommonClasses (92ms)
+	RebuildNativeTypeToScriptingClass (34ms)
+	initialDomainReloadingComplete (358ms)
+	LoadAllAssembliesAndSetupDomain (1068ms)
+		LoadAssemblies (1194ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (1033ms)
+			TypeCache.Refresh (1031ms)
+				TypeCache.ScanAssembly (823ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (761ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (651ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (146ms)
+			SetLoadedEditorAssemblies (10ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (10ms)
+			ProcessInitializeOnLoadAttributes (369ms)
+			ProcessInitializeOnLoadMethodAttributes (116ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  9.443 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  5.604 seconds
+Domain Reload Profiling: 15046ms
+	BeginReloadAssembly (1597ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (30ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (104ms)
+	RebuildCommonClasses (325ms)
+	RebuildNativeTypeToScriptingClass (98ms)
+	initialDomainReloadingComplete (657ms)
+	LoadAllAssembliesAndSetupDomain (6759ms)
+		LoadAssemblies (5915ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (1851ms)
+			TypeCache.Refresh (1682ms)
+				TypeCache.ScanAssembly (1575ms)
+			ScanForSourceGeneratedMonoScriptInfo (52ms)
+			ResolveRequiredComponents (114ms)
+	FinalizeReload (5610ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (3879ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (220ms)
+			SetLoadedEditorAssemblies (14ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (461ms)
+			ProcessInitializeOnLoadAttributes (3098ms)
+			ProcessInitializeOnLoadMethodAttributes (72ms)
+			AfterProcessingInitializeOnLoad (13ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (31ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
+Refreshing native plugins compatible for Editor in 13.56 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3200 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (27.1 KB). Loaded Objects now: 3669.
+Memory consumption went from 120.3 MB to 120.3 MB.
+Total: 8.782300 ms (FindLiveObjects: 0.387500 ms CreateObjectMapping: 0.318300 ms MarkObjects: 7.971800 ms  DeleteObjects: 0.103400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 19620.497447 seconds.
+  path: Assets/Generic
+  artifactKey: Guid(9fe43b56e9886614d8f1e0e2973e3e39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Generic using Guid(9fe43b56e9886614d8f1e0e2973e3e39) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 3 workers.
+ -> (artifact id: 'f88ac28e50fb02dc0c5de58b538ba8d1') in 0.009463 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Generic/Sounds
+  artifactKey: Guid(2f4729b111029c24282ae034c6907feb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Generic/Sounds using Guid(2f4729b111029c24282ae034c6907feb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 3 workers.
+ -> (artifact id: '5ac037a6ba6849f86f7f885b38f664a7') in 0.001169 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/PowerSpriteAnimator
+  artifactKey: Guid(b9e08a084a0612c4c9f6141983f51481) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PowerSpriteAnimator using Guid(b9e08a084a0612c4c9f6141983f51481) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 3 workers.
+ -> (artifact id: 'cddb96b2763e9a66dedb994e887f63e5') in 0.005169 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 7.780154 seconds.
+  path: Assets/ExampleTasks/Example/ExampleTask.prefab
+  artifactKey: Guid(35fd937f8e5ed57468986a43983b5773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleTasks/Example/ExampleTask.prefab using Guid(35fd937f8e5ed57468986a43983b5773) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 3 workers.
+ -> (artifact id: '21f4593211cc9cc8bd0338aa45c7cb15') in 0.713723 seconds
+Number of updated asset objects reloaded before import = 2
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 9.921095 seconds.
+  path: Assets/ExampleTasks/ShootSubmarines/ShootSubmarinesMinigame.prefab
+  artifactKey: Guid(ee7104bfad540ce43aff2165902808ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleTasks/ShootSubmarines/ShootSubmarinesMinigame.prefab using Guid(ee7104bfad540ce43aff2165902808ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 3 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 3 workers.
+ -> (artifact id: 'd46935b38996ef5b488990794afc2b2e') in 2.084271 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 26
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/ExampleTasks/ShootSubmarines/Contained/ShootSubmarinesMinigame.prefab
+  artifactKey: Guid(9ef589edc66ea72429d206b578a37ad1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleTasks/ShootSubmarines/Contained/ShootSubmarinesMinigame.prefab using Guid(9ef589edc66ea72429d206b578a37ad1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 3 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 3 workers.
+ -> (artifact id: '0ef6a79cb750fff244bb51d9377c24aa') in 1.528151 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 84
+========================================================================
+Received Import Request.
+  Time since last request: 4.685041 seconds.
+  path: Assets/ExampleTasks/ShootSubmarines/Scripts/ShootSubmarinesMinigame.cs
+  artifactKey: Guid(447687a6363949348b3c71f3c78b35df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleTasks/ShootSubmarines/Scripts/ShootSubmarinesMinigame.cs using Guid(447687a6363949348b3c71f3c78b35df) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 3 workers.
+ -> (artifact id: '4b214086401a9688b3f7433f69b4f21c') in 0.003478 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.576558 seconds.
+  path: Assets/ExampleTasks/ShootSubmarines/Scripts/Submarine.cs
+  artifactKey: Guid(109f5489c3eda704b96d2b620d357211) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleTasks/ShootSubmarines/Scripts/Submarine.cs using Guid(109f5489c3eda704b96d2b620d357211) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 3 workers.
+ -> (artifact id: 'bcfdaa463d845ff32c8b391ff41eabb8') in 0.003254 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 35.152858 seconds.
+  path: Assets/ExampleTasks/ShootSubmarines/Contained/ShootSubmarinesMinigame.prefab
+  artifactKey: Guid(9ef589edc66ea72429d206b578a37ad1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleTasks/ShootSubmarines/Contained/ShootSubmarinesMinigame.prefab using Guid(9ef589edc66ea72429d206b578a37ad1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 3 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 3 workers.
+ -> (artifact id: 'c7be7ccc45376c03ee23131d6842bba5') in 0.674420 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 79
+========================================================================
+Received Import Request.
+  Time since last request: 9.246911 seconds.
+  path: Assets/ExampleTasks/ShootSubmarines/ShootSubmarinesMinigame.prefab
+  artifactKey: Guid(ee7104bfad540ce43aff2165902808ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleTasks/ShootSubmarines/ShootSubmarinesMinigame.prefab using Guid(ee7104bfad540ce43aff2165902808ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 3 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 3 workers.
+ -> (artifact id: '856faca43d5f011541ac444eaf562094') in 0.230309 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 26
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.961 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  6.753 seconds
+Domain Reload Profiling: 8717ms
+	BeginReloadAssembly (952ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (56ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (134ms)
+	RebuildCommonClasses (249ms)
+	RebuildNativeTypeToScriptingClass (49ms)
+	initialDomainReloadingComplete (96ms)
+	LoadAllAssembliesAndSetupDomain (613ms)
+		LoadAssemblies (1160ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (69ms)
+			TypeCache.Refresh (23ms)
+				TypeCache.ScanAssembly (3ms)
+			ScanForSourceGeneratedMonoScriptInfo (20ms)
+			ResolveRequiredComponents (18ms)
+	FinalizeReload (6758ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1655ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (146ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (164ms)
+			ProcessInitializeOnLoadAttributes (1233ms)
+			ProcessInitializeOnLoadMethodAttributes (100ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (40ms)
+Refreshing native plugins compatible for Editor in 20.89 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3188 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (30.8 KB). Loaded Objects now: 3676.
+Memory consumption went from 123.2 MB to 123.1 MB.
+Total: 7.667900 ms (FindLiveObjects: 0.329700 ms CreateObjectMapping: 0.306500 ms MarkObjects: 6.957800 ms  DeleteObjects: 0.072500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 668ac65a86fd562887840ad86f390b46 -> a43c997cb3aa481abd380992956d160f
+========================================================================
+Received Import Request.
+  Time since last request: 157.242473 seconds.
+  path: Assets/ExampleTasks/ShootSubmarines/ShootSubmarinesMinigame.prefab
+  artifactKey: Guid(ee7104bfad540ce43aff2165902808ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleTasks/ShootSubmarines/ShootSubmarinesMinigame.prefab using Guid(ee7104bfad540ce43aff2165902808ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 3 workers.
+ -> (artifact id: '1c860660e960f338757cb95d4b75d913') in 0.483467 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 5.599080 seconds.
+  path: Assets/ExampleTasks/ShootSubmarines/ShootSubmarinesMinigame.prefab
+  artifactKey: Guid(ee7104bfad540ce43aff2165902808ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleTasks/ShootSubmarines/ShootSubmarinesMinigame.prefab using Guid(ee7104bfad540ce43aff2165902808ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 3 workers.
+ -> (artifact id: '5a5f4b70b64b67ffd22dfb86189a9010') in 0.001972 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 15.557246 seconds.
+  path: Assets/ExampleTasks/ShootSubmarines/ShootSubmarinesMinigame.prefab
+  artifactKey: Guid(ee7104bfad540ce43aff2165902808ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleTasks/ShootSubmarines/ShootSubmarinesMinigame.prefab using Guid(ee7104bfad540ce43aff2165902808ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 3 workers.
+ -> (artifact id: '43efd060c878c7bca263dcd6aebc4312') in 0.002278 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.676289 seconds.
+  path: Assets/ExampleTasks/ShootSubmarines/ShootSubmarinesMinigame.prefab
+  artifactKey: Guid(ee7104bfad540ce43aff2165902808ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleTasks/ShootSubmarines/ShootSubmarinesMinigame.prefab using Guid(ee7104bfad540ce43aff2165902808ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 3 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 3 workers.
+ -> (artifact id: '19ff76e575ce7b014173d570c7b39c32') in 0.521489 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 17.393470 seconds.
+  path: Assets/ExampleTasks/ShootSubmarines/ShootSubmarinesMinigame.prefab
+  artifactKey: Guid(ee7104bfad540ce43aff2165902808ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleTasks/ShootSubmarines/ShootSubmarinesMinigame.prefab using Guid(ee7104bfad540ce43aff2165902808ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 3 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 3 workers.
+ -> (artifact id: '6bef9a767ed7271d021d24e2628c32ad') in 0.253474 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 112.189270 seconds.
+  path: Assets/ExampleTasks/ShootSubmarines/Textures/OldButtons.png
+  artifactKey: Guid(fb04bb48b1f94fb4b8367504b09c30c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleTasks/ShootSubmarines/Textures/OldButtons.png using Guid(fb04bb48b1f94fb4b8367504b09c30c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 3 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 3 workers.
+ -> (artifact id: '9086393cf6334795587868561153d624') in 0.202827 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 25.745947 seconds.
+  path: Assets/ExampleTasks/ShootSubmarines/Textures/OldButtons.png
+  artifactKey: Guid(fb04bb48b1f94fb4b8367504b09c30c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleTasks/ShootSubmarines/Textures/OldButtons.png using Guid(fb04bb48b1f94fb4b8367504b09c30c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 3 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 3 workers.
+ -> (artifact id: 'c2e46f5ce28373f95a5f517dbcc921b7') in 0.034627 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  2.137 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  7.168 seconds
+Domain Reload Profiling: 9297ms
+	BeginReloadAssembly (762ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (23ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (155ms)
+	RebuildCommonClasses (149ms)
+	RebuildNativeTypeToScriptingClass (36ms)
+	initialDomainReloadingComplete (102ms)
+	LoadAllAssembliesAndSetupDomain (1074ms)
+		LoadAssemblies (1467ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (86ms)
+			TypeCache.Refresh (34ms)
+				TypeCache.ScanAssembly (9ms)
+			ScanForSourceGeneratedMonoScriptInfo (26ms)
+			ResolveRequiredComponents (24ms)
+	FinalizeReload (7174ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1701ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (83ms)
+			SetLoadedEditorAssemblies (16ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (237ms)
+			ProcessInitializeOnLoadAttributes (1283ms)
+			ProcessInitializeOnLoadMethodAttributes (77ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (21ms)
+Refreshing native plugins compatible for Editor in 12.76 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3224 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 15 unused Assets / (29.8 KB). Loaded Objects now: 3718.
+Memory consumption went from 123.9 MB to 123.9 MB.
+Total: 6.483300 ms (FindLiveObjects: 0.399100 ms CreateObjectMapping: 0.399000 ms MarkObjects: 5.602000 ms  DeleteObjects: 0.080900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/SpriteEditorWindow.cs: 1629bd700639d5abf7ee9c1a15128fda -> 
+  custom:scripting/monoscript/fileName/SpriteRect.cs: 8da6d12a5fbd75a0eba31cfa62842428 -> 
+  custom:scripting/monoscript/fileName/ISpriteEditorModule.cs: f35f8b8d39dcfd448fbbe9ea48566c2f -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/MenuItems.cs: 3ea3522373e3b4d2ef39113c39531efd -> 
+  custom:scripting/monoscript/fileName/DefaultSpriteNameFileIdDataProvider.cs: cd965ed390b21ec0302c3211a9f903ff -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/ShapeEditor.cs: 7eba0c642af179a392c34e527393b30b -> 
+  custom:scripting/monoscript/fileName/SpritePolygonModeModule.cs: 8b4aa126b968b0772b9e20476364e690 -> 
+  custom:scripting/precompiled-assembly-types:Unity.2D.Sprite.Editor: 17bc6c182f43764addce77b58cdd60c9 -> 
+  custom:scripting/monoscript/fileName/ItemCreationUtility.cs: d1c4ddba747ed633116f555c0d69ace7 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/SpriteEditorHandles.cs: 8b78502b9b56b3c556563a6e935b52ad -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/SpriteNameFileIdPair.cs: 8dab74045e538d5698ea3c4caed3e48c -> 
+  custom:scripting/monoscript/fileName/IGL.cs: 8903f8a1304142ec1aefe33b7a4db28c -> 
+  custom:scripting/monoscript/fileName/SpritePhysicsShapeModule.cs: 35688b9e178698712b557d50761dc7c2 -> 
+  custom:scripting/monoscript/fileName/ITexture.cs: dbb4c87e1c028ce779185d5d3d566460 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/IEvent.cs: c25d501578d8ebe48d7b30415b0df4c5 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/SpriteOutlineModule.cs: 249fecf584323de7d2fd0b14e9a4944c -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/SpriteEditorUtility.cs: 7e2d1f2cb427fd67c5461f9431375c3a -> 
+  custom:scripting/monoscript/fileName/SpriteSecondaryTexturesModule.cs: 8f361de5bdfd731e220c415240ad033f -> 
+  custom:scripting/monoscript/fileName/IGUIUtility.cs: cad79017f17454feb4e1799b1c42f87c -> 
+  custom:scripting/monoscript/fileName/IHandles.cs: d2780a18a3844e49d490d68d5cb3d26a -> 
+  custom:scripting/monoscript/fileName/TextureImporterDataProvider.cs: d68f5d5325387f4e38fdcf2610c72ce3 -> 
+  custom:scripting/monoscript/fileName/SpriteEditorMenu.cs: f9042f312a91c162ede0d5de48225240 -> 
+  custom:scripting/monoscript/fileName/ISpriteEditorDataProvider.cs: 4c01add71bf03a3e1afff21bbd534ee9 -> 
+  custom:scripting/monoscript/fileName/IUndoSystem.cs: 841a069a843e48d57d362ca08bca21d4 -> 
+  custom:scripting/monoscript/fileName/SpritePolygonModeModuleView.cs: db8ddbee5a89c636987047f4602001ef -> 
+  custom:scripting/monoscript/fileName/SpriteEditorData.cs: 79e0d970ecf11ef3020398e38672548f -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/SpriteEditorWindowSettings.cs: 8e59c26ada2085b3ebaa83fd01af70e3 -> 
+  custom:scripting/monoscript/fileName/SpriteFrameModuleBaseView.cs: 72abaa53c3c1184e23d4d9a45f62d8c2 -> 
+  custom:scripting/monoscript/fileName/IAssetDatabase.cs: c40b958675a6cd5b519fa6ca497fede4 -> 
+  custom:scripting/monoscript/fileName/SpriteFrameModule.cs: f07011b3ec3622062bef733dc29fedf0 -> 
+  custom:scripting/monoscript/fileName/ShapeEditorRectSelection.cs: 1696d724b33ef6168949bbdce78d19c6 -> 
+  custom:scripting/monoscript/fileName/TextureImporterDataProviderImplementation.cs: ffb9fda6ca225aa106e9fa84455f4e60 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/SpriteUtilityWindow.cs: 4827aafd0c4d893166845eac1266c4ed -> 
+  custom:scripting/monoscript/fileName/SpriteFrameModuleBase.cs: 82472910b376b3c28a6f5b31b28f5f51 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 668ac65a86fd562887840ad86f390b46 -> a43c997cb3aa481abd380992956d160f
+  custom:scripting/monoscript/fileName/SpriteFrameModuleView.cs: f07011b3ec3622062bef733dc29fedf0 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 198.711300 seconds.
+  path: Assets/ExampleTasks/ShootSubmarines/Textures/OldButtons.png
+  artifactKey: Guid(fb04bb48b1f94fb4b8367504b09c30c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleTasks/ShootSubmarines/Textures/OldButtons.png using Guid(fb04bb48b1f94fb4b8367504b09c30c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 3 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 3 workers.
+ -> (artifact id: '1e7697da942d7fb9c62efd9d347381c4') in 1.296254 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 33
+========================================================================
+Received Import Request.
+  Time since last request: 7.654809 seconds.
+  path: Assets/ExampleTasks/ShootSubmarines/Textures/OldButtons.png
+  artifactKey: Guid(fb04bb48b1f94fb4b8367504b09c30c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleTasks/ShootSubmarines/Textures/OldButtons.png using Guid(fb04bb48b1f94fb4b8367504b09c30c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 3 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 3 workers.
+ -> (artifact id: '600a1b143f9752f23f2350c07c76c47e') in 0.566917 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 33
+========================================================================
+Received Import Request.
+  Time since last request: 10.329582 seconds.
+  path: Assets/ExampleTasks/ShootSubmarines/ShootSubmarinesMinigame.prefab
+  artifactKey: Guid(ee7104bfad540ce43aff2165902808ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleTasks/ShootSubmarines/ShootSubmarinesMinigame.prefab using Guid(ee7104bfad540ce43aff2165902808ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 3 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 3 workers.
+ -> (artifact id: '9b94537617c02fbfaf938d7b515be855') in 0.767297 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.055929 seconds.
+  path: Assets/ExampleTasks/ShootSubmarines/ShootSubmarinesMinigame.prefab
+  artifactKey: Guid(ee7104bfad540ce43aff2165902808ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleTasks/ShootSubmarines/ShootSubmarinesMinigame.prefab using Guid(ee7104bfad540ce43aff2165902808ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 3 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 3 workers.
+ -> (artifact id: '4420958855882cf05037c39952b4f3bd') in 0.821149 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/ExampleTasks/ShootSubmarines/ShootSubmarinesMinigame.prefab
+  artifactKey: Guid(ee7104bfad540ce43aff2165902808ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleTasks/ShootSubmarines/ShootSubmarinesMinigame.prefab using Guid(ee7104bfad540ce43aff2165902808ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 3 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 3 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.138920 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/exampletasks/shootsubmarines/shootsubmarinesminigame.prefab in SourceAssetDB has modification time of '2026-02-15T08:17:00.8390466Z' while content on disk has modification time of '2026-02-15T08:17:01.6527011Z'
+  ERROR: Build asset version error: assets/exampletasks/shootsubmarines/shootsubmarinesminigame.prefab in SourceAssetDB has modification time of '2026-02-15T08:17:00.8390466Z' while content on disk has modification time of '2026-02-15T08:17:01.6527011Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.082737 seconds.
+  path: Assets/ExampleTasks/ShootSubmarines/ShootSubmarinesMinigame.prefab
+  artifactKey: Guid(ee7104bfad540ce43aff2165902808ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleTasks/ShootSubmarines/ShootSubmarinesMinigame.prefab using Guid(ee7104bfad540ce43aff2165902808ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 3 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 3 workers.
+ -> (artifact id: 'df455339e170641c241786700c939659') in 0.261873 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.353425 seconds.
+  path: Assets/ExampleTasks/ShootSubmarines/ShootSubmarinesMinigame.prefab
+  artifactKey: Guid(ee7104bfad540ce43aff2165902808ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleTasks/ShootSubmarines/ShootSubmarinesMinigame.prefab using Guid(ee7104bfad540ce43aff2165902808ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 3 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 3 workers.
+ -> (artifact id: 'fbff4b26511e83e5fcee0ddaa310c826') in 0.379098 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.994932 seconds.
+  path: Assets/ExampleTasks/ShootSubmarines/ShootSubmarinesMinigame.prefab
+  artifactKey: Guid(ee7104bfad540ce43aff2165902808ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleTasks/ShootSubmarines/ShootSubmarinesMinigame.prefab using Guid(ee7104bfad540ce43aff2165902808ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 3 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 3 workers.
+ -> (artifact id: '7b2503e66258c4026dbadfb7ffa0b60c') in 0.299884 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.101342 seconds.
+  path: Assets/ExampleTasks/ShootSubmarines/ShootSubmarinesMinigame.prefab
+  artifactKey: Guid(ee7104bfad540ce43aff2165902808ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleTasks/ShootSubmarines/ShootSubmarinesMinigame.prefab using Guid(ee7104bfad540ce43aff2165902808ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 3 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 3 workers.
+ -> (artifact id: '0274c272081657d724f6561b9388e1d0') in 0.447833 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.688097 seconds.
+  path: Assets/ExampleTasks/ShootSubmarines/ShootSubmarinesMinigame.prefab
+  artifactKey: Guid(ee7104bfad540ce43aff2165902808ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleTasks/ShootSubmarines/ShootSubmarinesMinigame.prefab using Guid(ee7104bfad540ce43aff2165902808ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 3 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 3 workers.
+ -> (artifact id: 'f04b4aa9771cf631466ef782d53860bc') in 0.077010 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.079282 seconds.
+  path: Assets/ExampleTasks/ShootSubmarines/ShootSubmarinesMinigame.prefab
+  artifactKey: Guid(ee7104bfad540ce43aff2165902808ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleTasks/ShootSubmarines/ShootSubmarinesMinigame.prefab using Guid(ee7104bfad540ce43aff2165902808ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 3 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 3 workers.
+ -> (artifact id: '6841efa6e213ac4828457106210491c8') in 0.402200 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 1.733635 seconds.
+  path: Assets/ExampleTasks/ShootSubmarines/ShootSubmarinesMinigame.prefab
+  artifactKey: Guid(ee7104bfad540ce43aff2165902808ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleTasks/ShootSubmarines/ShootSubmarinesMinigame.prefab using Guid(ee7104bfad540ce43aff2165902808ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 3 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 3 workers.
+ -> (artifact id: '3a8618e3f10b07c247775de46553f278') in 0.641018 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/ExampleTasks/ShootSubmarines/ShootSubmarinesMinigame.prefab
+  artifactKey: Guid(ee7104bfad540ce43aff2165902808ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleTasks/ShootSubmarines/ShootSubmarinesMinigame.prefab using Guid(ee7104bfad540ce43aff2165902808ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 3 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 3 workers.
+ -> (artifact id: 'a8306251f61203597fee6adc9e27498c') in 0.183159 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.152077 seconds.
+  path: Assets/ExampleTasks/ShootSubmarines/ShootSubmarinesMinigame.prefab
+  artifactKey: Guid(ee7104bfad540ce43aff2165902808ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleTasks/ShootSubmarines/ShootSubmarinesMinigame.prefab using Guid(ee7104bfad540ce43aff2165902808ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 3 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 3 workers.
+ -> (artifact id: '87ad1a7fcd6ad615a8468b574091b582') in 0.217299 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.185821 seconds.
+  path: Assets/ExampleTasks/ShootSubmarines/ShootSubmarinesMinigame.prefab
+  artifactKey: Guid(ee7104bfad540ce43aff2165902808ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleTasks/ShootSubmarines/ShootSubmarinesMinigame.prefab using Guid(ee7104bfad540ce43aff2165902808ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 3 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 3 workers.
+ -> (artifact id: '5e142c1c527668b3d370443274431e17') in 0.243120 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.791117 seconds.
+  path: Assets/ExampleTasks/ShootSubmarines/ShootSubmarinesMinigame.prefab
+  artifactKey: Guid(ee7104bfad540ce43aff2165902808ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleTasks/ShootSubmarines/ShootSubmarinesMinigame.prefab using Guid(ee7104bfad540ce43aff2165902808ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 3 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 3 workers.
+ -> (artifact id: 'c6c624b8e4a7f0ba277af97e747a973c') in 0.257314 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.813352 seconds.
+  path: Assets/ExampleTasks/ShootSubmarines/ShootSubmarinesMinigame.prefab
+  artifactKey: Guid(ee7104bfad540ce43aff2165902808ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleTasks/ShootSubmarines/ShootSubmarinesMinigame.prefab using Guid(ee7104bfad540ce43aff2165902808ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 3 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 3 workers.
+ -> (artifact id: '649a854c770748282a1acfd813b1d4d2') in 0.066149 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.120707 seconds.
+  path: Assets/ExampleTasks/ShootSubmarines/ShootSubmarinesMinigame.prefab
+  artifactKey: Guid(ee7104bfad540ce43aff2165902808ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleTasks/ShootSubmarines/ShootSubmarinesMinigame.prefab using Guid(ee7104bfad540ce43aff2165902808ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 3 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 3 workers.
+ -> (artifact id: '71527d91624f25d2addb42bf76d6603e') in 0.277806 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.819418 seconds.
+  path: Assets/ExampleTasks/ShootSubmarines/ShootSubmarinesMinigame.prefab
+  artifactKey: Guid(ee7104bfad540ce43aff2165902808ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleTasks/ShootSubmarines/ShootSubmarinesMinigame.prefab using Guid(ee7104bfad540ce43aff2165902808ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 3 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 3 workers.
+ -> (artifact id: '17c551519635e5657b5764a1794c7507') in 0.248808 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.331896 seconds.
+  path: Assets/ExampleTasks/ShootSubmarines/ShootSubmarinesMinigame.prefab
+  artifactKey: Guid(ee7104bfad540ce43aff2165902808ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleTasks/ShootSubmarines/ShootSubmarinesMinigame.prefab using Guid(ee7104bfad540ce43aff2165902808ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 3 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 3 workers.
+ -> (artifact id: 'a75a2963e06beee32886c5e684a66d81') in 0.162899 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.065306 seconds.
+  path: Assets/ExampleTasks/ShootSubmarines/ShootSubmarinesMinigame.prefab
+  artifactKey: Guid(ee7104bfad540ce43aff2165902808ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleTasks/ShootSubmarines/ShootSubmarinesMinigame.prefab using Guid(ee7104bfad540ce43aff2165902808ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 3 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 3 workers.
+ -> (artifact id: 'b1a5fd823150669eb3e6b44598822b8a') in 0.329829 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.063185 seconds.
+  path: Assets/ExampleTasks/ShootSubmarines/ShootSubmarinesMinigame.prefab
+  artifactKey: Guid(ee7104bfad540ce43aff2165902808ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleTasks/ShootSubmarines/ShootSubmarinesMinigame.prefab using Guid(ee7104bfad540ce43aff2165902808ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 3 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 3 workers.
+ -> (artifact id: '4936a7bb54dd38bbe7531e6f175a362f') in 0.106557 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.059810 seconds.
+  path: Assets/ExampleTasks/ShootSubmarines/ShootSubmarinesMinigame.prefab
+  artifactKey: Guid(ee7104bfad540ce43aff2165902808ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleTasks/ShootSubmarines/ShootSubmarinesMinigame.prefab using Guid(ee7104bfad540ce43aff2165902808ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 3 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 3 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.106535 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/exampletasks/shootsubmarines/shootsubmarinesminigame.prefab in SourceAssetDB has modification time of '2026-02-15T08:17:14.8750958Z' while content on disk has modification time of '2026-02-15T08:17:15.1285573Z'
+  ERROR: Build asset version error: assets/exampletasks/shootsubmarines/shootsubmarinesminigame.prefab in SourceAssetDB has modification time of '2026-02-15T08:17:14.8750958Z' while content on disk has modification time of '2026-02-15T08:17:15.1285573Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.133588 seconds.
+  path: Assets/ExampleTasks/ShootSubmarines/ShootSubmarinesMinigame.prefab
+  artifactKey: Guid(ee7104bfad540ce43aff2165902808ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleTasks/ShootSubmarines/ShootSubmarinesMinigame.prefab using Guid(ee7104bfad540ce43aff2165902808ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 3 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 3 workers.
+ -> (artifact id: 'e37c7b729d48c1a2e227efadfc66cdbe') in 0.091251 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.055508 seconds.
+  path: Assets/ExampleTasks/ShootSubmarines/ShootSubmarinesMinigame.prefab
+  artifactKey: Guid(ee7104bfad540ce43aff2165902808ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleTasks/ShootSubmarines/ShootSubmarinesMinigame.prefab using Guid(ee7104bfad540ce43aff2165902808ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 3 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 3 workers.
+ -> (artifact id: 'e14e3d0e49f861894c369f900648ac69') in 0.128582 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.053273 seconds.
+  path: Assets/ExampleTasks/ShootSubmarines/ShootSubmarinesMinigame.prefab
+  artifactKey: Guid(ee7104bfad540ce43aff2165902808ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleTasks/ShootSubmarines/ShootSubmarinesMinigame.prefab using Guid(ee7104bfad540ce43aff2165902808ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 3 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 3 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.120935 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/exampletasks/shootsubmarines/shootsubmarinesminigame.prefab in SourceAssetDB has modification time of '2026-02-15T08:17:15.7802277Z' while content on disk has modification time of '2026-02-15T08:17:15.9802337Z'
+  ERROR: Build asset version error: assets/exampletasks/shootsubmarines/shootsubmarinesminigame.prefab in SourceAssetDB has modification time of '2026-02-15T08:17:15.7802277Z' while content on disk has modification time of '2026-02-15T08:17:15.9802337Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.071219 seconds.
+  path: Assets/ExampleTasks/ShootSubmarines/ShootSubmarinesMinigame.prefab
+  artifactKey: Guid(ee7104bfad540ce43aff2165902808ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleTasks/ShootSubmarines/ShootSubmarinesMinigame.prefab using Guid(ee7104bfad540ce43aff2165902808ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 3 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 3 workers.
+ -> (artifact id: 'b657988147eb1db9c6c10e141669e1fd') in 0.802941 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.002228 seconds.
+  path: Assets/ExampleTasks/ShootSubmarines/ShootSubmarinesMinigame.prefab
+  artifactKey: Guid(ee7104bfad540ce43aff2165902808ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleTasks/ShootSubmarines/ShootSubmarinesMinigame.prefab using Guid(ee7104bfad540ce43aff2165902808ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 3 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 3 workers.
+ -> (artifact id: '1e56de3cd4e7142d9904a57e31028c67') in 0.129649 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.232380 seconds.
+  path: Assets/ExampleTasks/ShootSubmarines/ShootSubmarinesMinigame.prefab
+  artifactKey: Guid(ee7104bfad540ce43aff2165902808ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleTasks/ShootSubmarines/ShootSubmarinesMinigame.prefab using Guid(ee7104bfad540ce43aff2165902808ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 3 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 3 workers.
+ -> (artifact id: 'f3f36bf1c27e58cd4cddf93e7abd5019') in 0.119248 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.166768 seconds.
+  path: Assets/ExampleTasks/ShootSubmarines/ShootSubmarinesMinigame.prefab
+  artifactKey: Guid(ee7104bfad540ce43aff2165902808ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleTasks/ShootSubmarines/ShootSubmarinesMinigame.prefab using Guid(ee7104bfad540ce43aff2165902808ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 3 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 3 workers.
+ -> (artifact id: '73bbd0e71d3209b0c096f2c06eb1da1b') in 0.095197 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.307067 seconds.
+  path: Assets/ExampleTasks/ShootSubmarines/ShootSubmarinesMinigame.prefab
+  artifactKey: Guid(ee7104bfad540ce43aff2165902808ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleTasks/ShootSubmarines/ShootSubmarinesMinigame.prefab using Guid(ee7104bfad540ce43aff2165902808ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 3 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 3 workers.
+ -> (artifact id: '93e1bc315cf8a0c1ee0d774c05b65991') in 0.172739 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.956524 seconds.
+  path: Assets/ExampleTasks/ShootSubmarines/ShootSubmarinesMinigame.prefab
+  artifactKey: Guid(ee7104bfad540ce43aff2165902808ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleTasks/ShootSubmarines/ShootSubmarinesMinigame.prefab using Guid(ee7104bfad540ce43aff2165902808ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 3 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 3 workers.
+ -> (artifact id: '684e0d02e4651cd8f9c8bd43d5622d16') in 0.161399 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.281092 seconds.
+  path: Assets/ExampleTasks/ShootSubmarines/ShootSubmarinesMinigame.prefab
+  artifactKey: Guid(ee7104bfad540ce43aff2165902808ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleTasks/ShootSubmarines/ShootSubmarinesMinigame.prefab using Guid(ee7104bfad540ce43aff2165902808ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 3 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 3 workers.
+ -> (artifact id: '68f01d8c9039df221b946924e22a7447') in 0.062223 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.144884 seconds.
+  path: Assets/ExampleTasks/ShootSubmarines/ShootSubmarinesMinigame.prefab
+  artifactKey: Guid(ee7104bfad540ce43aff2165902808ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleTasks/ShootSubmarines/ShootSubmarinesMinigame.prefab using Guid(ee7104bfad540ce43aff2165902808ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 3 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 3 workers.
+ -> (artifact id: 'a37161d2a8f8d2399111ba915a1f7203') in 0.222321 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.206916 seconds.
+  path: Assets/ExampleTasks/ShootSubmarines/ShootSubmarinesMinigame.prefab
+  artifactKey: Guid(ee7104bfad540ce43aff2165902808ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleTasks/ShootSubmarines/ShootSubmarinesMinigame.prefab using Guid(ee7104bfad540ce43aff2165902808ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 3 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 3 workers.
+ -> (artifact id: '17c1f454d3abb219edf1ad0b95d25a94') in 0.126686 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 1.033929 seconds.
+  path: Assets/ExampleTasks/ShootSubmarines/ShootSubmarinesMinigame.prefab
+  artifactKey: Guid(ee7104bfad540ce43aff2165902808ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleTasks/ShootSubmarines/ShootSubmarinesMinigame.prefab using Guid(ee7104bfad540ce43aff2165902808ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 3 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 3 workers.
+ -> (artifact id: 'b5949657a7306085233f10e8e040eae3') in 0.182124 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.236805 seconds.
+  path: Assets/ExampleTasks/ShootSubmarines/ShootSubmarinesMinigame.prefab
+  artifactKey: Guid(ee7104bfad540ce43aff2165902808ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleTasks/ShootSubmarines/ShootSubmarinesMinigame.prefab using Guid(ee7104bfad540ce43aff2165902808ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 3 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 3 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.226275 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/exampletasks/shootsubmarines/shootsubmarinesminigame.prefab in SourceAssetDB has modification time of '2026-02-15T08:17:21.902256Z' while content on disk has modification time of '2026-02-15T08:17:22.3824936Z'
+  ERROR: Build asset version error: assets/exampletasks/shootsubmarines/shootsubmarinesminigame.prefab in SourceAssetDB has modification time of '2026-02-15T08:17:21.902256Z' while content on disk has modification time of '2026-02-15T08:17:22.3824936Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.185755 seconds.
+  path: Assets/ExampleTasks/ShootSubmarines/ShootSubmarinesMinigame.prefab
+  artifactKey: Guid(ee7104bfad540ce43aff2165902808ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleTasks/ShootSubmarines/ShootSubmarinesMinigame.prefab using Guid(ee7104bfad540ce43aff2165902808ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 3 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 3 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.232521 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/exampletasks/shootsubmarines/shootsubmarinesminigame.prefab in SourceAssetDB has modification time of '2026-02-15T08:17:22.3824936Z' while content on disk has modification time of '2026-02-15T08:17:22.8044343Z'
+  ERROR: Build asset version error: assets/exampletasks/shootsubmarines/shootsubmarinesminigame.prefab in SourceAssetDB has modification time of '2026-02-15T08:17:22.3824936Z' while content on disk has modification time of '2026-02-15T08:17:22.8044343Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.084600 seconds.
+  path: Assets/ExampleTasks/ShootSubmarines/ShootSubmarinesMinigame.prefab
+  artifactKey: Guid(ee7104bfad540ce43aff2165902808ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleTasks/ShootSubmarines/ShootSubmarinesMinigame.prefab using Guid(ee7104bfad540ce43aff2165902808ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 3 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 3 workers.
+ -> (artifact id: '1fbc01578eeda3e4d46e66c3d355c2fb') in 0.361610 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.229837 seconds.
+  path: Assets/ExampleTasks/ShootSubmarines/ShootSubmarinesMinigame.prefab
+  artifactKey: Guid(ee7104bfad540ce43aff2165902808ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleTasks/ShootSubmarines/ShootSubmarinesMinigame.prefab using Guid(ee7104bfad540ce43aff2165902808ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 3 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 3 workers.
+ -> (artifact id: '955a3f3b7f36fc1c966728062dc255b0') in 0.252243 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.770768 seconds.
+  path: Assets/ExampleTasks/ShootSubmarines/ShootSubmarinesMinigame.prefab
+  artifactKey: Guid(ee7104bfad540ce43aff2165902808ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleTasks/ShootSubmarines/ShootSubmarinesMinigame.prefab using Guid(ee7104bfad540ce43aff2165902808ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 3 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 3 workers.
+ -> (artifact id: '309151164de8bccaed1d13b58fd61dc9') in 0.230044 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/ExampleTasks/ShootSubmarines/ShootSubmarinesMinigame.prefab
+  artifactKey: Guid(ee7104bfad540ce43aff2165902808ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleTasks/ShootSubmarines/ShootSubmarinesMinigame.prefab using Guid(ee7104bfad540ce43aff2165902808ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 3 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 3 workers.
+ -> (artifact id: '2d15b84c1aeb81db380f35010259e798') in 0.260611 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.059232 seconds.
+  path: Assets/ExampleTasks/ShootSubmarines/ShootSubmarinesMinigame.prefab
+  artifactKey: Guid(ee7104bfad540ce43aff2165902808ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleTasks/ShootSubmarines/ShootSubmarinesMinigame.prefab using Guid(ee7104bfad540ce43aff2165902808ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 3 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 3 workers.
+ -> (artifact id: '7c3b87fb8a2baecfc66f223a3d8a287d') in 0.277467 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.129618 seconds.
+  path: Assets/ExampleTasks/ShootSubmarines/ShootSubmarinesMinigame.prefab
+  artifactKey: Guid(ee7104bfad540ce43aff2165902808ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleTasks/ShootSubmarines/ShootSubmarinesMinigame.prefab using Guid(ee7104bfad540ce43aff2165902808ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 3 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 3 workers.
+ -> (artifact id: '82d5f8139f85d0b1e946a266d26d29eb') in 0.245218 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.001531 seconds.
+  path: Assets/ExampleTasks/ShootSubmarines/ShootSubmarinesMinigame.prefab
+  artifactKey: Guid(ee7104bfad540ce43aff2165902808ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleTasks/ShootSubmarines/ShootSubmarinesMinigame.prefab using Guid(ee7104bfad540ce43aff2165902808ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 3 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 3 workers.
+ -> (artifact id: '5e597d70f58808c22998d47e9c4429fd') in 0.151012 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.003319 seconds.
+  path: Assets/ExampleTasks/ShootSubmarines/ShootSubmarinesMinigame.prefab
+  artifactKey: Guid(ee7104bfad540ce43aff2165902808ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleTasks/ShootSubmarines/ShootSubmarinesMinigame.prefab using Guid(ee7104bfad540ce43aff2165902808ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 3 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 3 workers.
+ -> (artifact id: 'bead4a3e68b399b332753428e5f69490') in 0.161435 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.083744 seconds.
+  path: Assets/ExampleTasks/ShootSubmarines/ShootSubmarinesMinigame.prefab
+  artifactKey: Guid(ee7104bfad540ce43aff2165902808ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleTasks/ShootSubmarines/ShootSubmarinesMinigame.prefab using Guid(ee7104bfad540ce43aff2165902808ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 3 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 3 workers.
+ -> (artifact id: '2c164e7a6c7a79551d36dec04acae5e1') in 0.277280 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 7.986208 seconds.
+  path: Assets/ExampleTasks/ShootSubmarines/ShootSubmarinesMinigame.prefab
+  artifactKey: Guid(ee7104bfad540ce43aff2165902808ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleTasks/ShootSubmarines/ShootSubmarinesMinigame.prefab using Guid(ee7104bfad540ce43aff2165902808ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 3 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 3 workers.
+ -> (artifact id: 'bd5b27df7a2ec145b3be5290ec89fd12') in 0.384371 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.656 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.839 seconds
+Domain Reload Profiling: 4495ms
+	BeginReloadAssembly (705ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (18ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (95ms)
+	RebuildCommonClasses (345ms)
+	RebuildNativeTypeToScriptingClass (39ms)
+	initialDomainReloadingComplete (59ms)
+	LoadAllAssembliesAndSetupDomain (508ms)
+		LoadAssemblies (958ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (58ms)
+			TypeCache.Refresh (28ms)
+				TypeCache.ScanAssembly (8ms)
+			ScanForSourceGeneratedMonoScriptInfo (16ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (2839ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1065ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (39ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (129ms)
+			ProcessInitializeOnLoadAttributes (802ms)
+			ProcessInitializeOnLoadMethodAttributes (78ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (19ms)
+Refreshing native plugins compatible for Editor in 7.61 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3147 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 92 unused Assets / (69.5 KB). Loaded Objects now: 3696.
+Memory consumption went from 122.8 MB to 122.7 MB.
+Total: 4.651400 ms (FindLiveObjects: 0.542300 ms CreateObjectMapping: 0.367300 ms MarkObjects: 3.566000 ms  DeleteObjects: 0.174500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/SpriteEditorWindow.cs: 1629bd700639d5abf7ee9c1a15128fda -> 
+  custom:scripting/monoscript/fileName/SpriteRect.cs: 8da6d12a5fbd75a0eba31cfa62842428 -> 
+  custom:scripting/monoscript/fileName/ISpriteEditorModule.cs: f35f8b8d39dcfd448fbbe9ea48566c2f -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/MenuItems.cs: 3ea3522373e3b4d2ef39113c39531efd -> 
+  custom:scripting/monoscript/fileName/DefaultSpriteNameFileIdDataProvider.cs: cd965ed390b21ec0302c3211a9f903ff -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/ShapeEditor.cs: 7eba0c642af179a392c34e527393b30b -> 
+  custom:scripting/monoscript/fileName/SpritePolygonModeModule.cs: 8b4aa126b968b0772b9e20476364e690 -> 
+  custom:scripting/precompiled-assembly-types:Unity.2D.Sprite.Editor: 17bc6c182f43764addce77b58cdd60c9 -> 
+  custom:scripting/monoscript/fileName/ItemCreationUtility.cs: d1c4ddba747ed633116f555c0d69ace7 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/SpriteEditorHandles.cs: 8b78502b9b56b3c556563a6e935b52ad -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/SpriteNameFileIdPair.cs: 8dab74045e538d5698ea3c4caed3e48c -> 
+  custom:scripting/monoscript/fileName/IGL.cs: 8903f8a1304142ec1aefe33b7a4db28c -> 
+  custom:scripting/monoscript/fileName/SpritePhysicsShapeModule.cs: 35688b9e178698712b557d50761dc7c2 -> 
+  custom:scripting/monoscript/fileName/ITexture.cs: dbb4c87e1c028ce779185d5d3d566460 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/IEvent.cs: c25d501578d8ebe48d7b30415b0df4c5 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/SpriteOutlineModule.cs: 249fecf584323de7d2fd0b14e9a4944c -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/SpriteEditorUtility.cs: 7e2d1f2cb427fd67c5461f9431375c3a -> 
+  custom:scripting/monoscript/fileName/SpriteSecondaryTexturesModule.cs: 8f361de5bdfd731e220c415240ad033f -> 
+  custom:scripting/monoscript/fileName/IGUIUtility.cs: cad79017f17454feb4e1799b1c42f87c -> 
+  custom:scripting/monoscript/fileName/IHandles.cs: d2780a18a3844e49d490d68d5cb3d26a -> 
+  custom:scripting/monoscript/fileName/TextureImporterDataProvider.cs: d68f5d5325387f4e38fdcf2610c72ce3 -> 
+  custom:scripting/monoscript/fileName/SpriteEditorMenu.cs: f9042f312a91c162ede0d5de48225240 -> 
+  custom:scripting/monoscript/fileName/ISpriteEditorDataProvider.cs: 4c01add71bf03a3e1afff21bbd534ee9 -> 
+  custom:scripting/monoscript/fileName/IUndoSystem.cs: 841a069a843e48d57d362ca08bca21d4 -> 
+  custom:scripting/monoscript/fileName/SpritePolygonModeModuleView.cs: db8ddbee5a89c636987047f4602001ef -> 
+  custom:scripting/monoscript/fileName/SpriteEditorData.cs: 79e0d970ecf11ef3020398e38672548f -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/SpriteEditorWindowSettings.cs: 8e59c26ada2085b3ebaa83fd01af70e3 -> 
+  custom:scripting/monoscript/fileName/SpriteFrameModuleBaseView.cs: 72abaa53c3c1184e23d4d9a45f62d8c2 -> 
+  custom:scripting/monoscript/fileName/IAssetDatabase.cs: c40b958675a6cd5b519fa6ca497fede4 -> 
+  custom:scripting/monoscript/fileName/SpriteFrameModule.cs: f07011b3ec3622062bef733dc29fedf0 -> 
+  custom:scripting/monoscript/fileName/ShapeEditorRectSelection.cs: 1696d724b33ef6168949bbdce78d19c6 -> 
+  custom:scripting/monoscript/fileName/TextureImporterDataProviderImplementation.cs: ffb9fda6ca225aa106e9fa84455f4e60 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/SpriteUtilityWindow.cs: 4827aafd0c4d893166845eac1266c4ed -> 
+  custom:scripting/monoscript/fileName/SpriteFrameModuleBase.cs: 82472910b376b3c28a6f5b31b28f5f51 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: cd0ac67b53a8ccf9095d865ca0859e96 -> a43c997cb3aa481abd380992956d160f
+  custom:scripting/monoscript/fileName/SpriteFrameModuleView.cs: f07011b3ec3622062bef733dc29fedf0 -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  2.686 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.234 seconds
+Domain Reload Profiling: 5921ms
+	BeginReloadAssembly (1988ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (16ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (97ms)
+	RebuildCommonClasses (122ms)
+	RebuildNativeTypeToScriptingClass (38ms)
+	initialDomainReloadingComplete (55ms)
+	LoadAllAssembliesAndSetupDomain (482ms)
+		LoadAssemblies (2173ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (50ms)
+			TypeCache.Refresh (14ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (15ms)
+			ResolveRequiredComponents (18ms)
+	FinalizeReload (3236ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1126ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (45ms)
+			SetLoadedEditorAssemblies (12ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (151ms)
+			ProcessInitializeOnLoadAttributes (850ms)
+			ProcessInitializeOnLoadMethodAttributes (59ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (4ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (21ms)
+Refreshing native plugins compatible for Editor in 8.18 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3140 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (30.2 KB). Loaded Objects now: 3696.
+Memory consumption went from 122.8 MB to 122.8 MB.
+Total: 6.726900 ms (FindLiveObjects: 0.400700 ms CreateObjectMapping: 0.342600 ms MarkObjects: 5.892400 ms  DeleteObjects: 0.089500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/SpriteEditorWindow.cs: 1629bd700639d5abf7ee9c1a15128fda -> 
+  custom:scripting/monoscript/fileName/SpriteRect.cs: 8da6d12a5fbd75a0eba31cfa62842428 -> 
+  custom:scripting/monoscript/fileName/ISpriteEditorModule.cs: f35f8b8d39dcfd448fbbe9ea48566c2f -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/MenuItems.cs: 3ea3522373e3b4d2ef39113c39531efd -> 
+  custom:scripting/monoscript/fileName/DefaultSpriteNameFileIdDataProvider.cs: cd965ed390b21ec0302c3211a9f903ff -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/ShapeEditor.cs: 7eba0c642af179a392c34e527393b30b -> 
+  custom:scripting/monoscript/fileName/SpritePolygonModeModule.cs: 8b4aa126b968b0772b9e20476364e690 -> 
+  custom:scripting/precompiled-assembly-types:Unity.2D.Sprite.Editor: 17bc6c182f43764addce77b58cdd60c9 -> 
+  custom:scripting/monoscript/fileName/ItemCreationUtility.cs: d1c4ddba747ed633116f555c0d69ace7 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/SpriteEditorHandles.cs: 8b78502b9b56b3c556563a6e935b52ad -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/SpriteNameFileIdPair.cs: 8dab74045e538d5698ea3c4caed3e48c -> 
+  custom:scripting/monoscript/fileName/IGL.cs: 8903f8a1304142ec1aefe33b7a4db28c -> 
+  custom:scripting/monoscript/fileName/SpritePhysicsShapeModule.cs: 35688b9e178698712b557d50761dc7c2 -> 
+  custom:scripting/monoscript/fileName/ITexture.cs: dbb4c87e1c028ce779185d5d3d566460 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/IEvent.cs: c25d501578d8ebe48d7b30415b0df4c5 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/SpriteOutlineModule.cs: 249fecf584323de7d2fd0b14e9a4944c -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/SpriteEditorUtility.cs: 7e2d1f2cb427fd67c5461f9431375c3a -> 
+  custom:scripting/monoscript/fileName/SpriteSecondaryTexturesModule.cs: 8f361de5bdfd731e220c415240ad033f -> 
+  custom:scripting/monoscript/fileName/IGUIUtility.cs: cad79017f17454feb4e1799b1c42f87c -> 
+  custom:scripting/monoscript/fileName/IHandles.cs: d2780a18a3844e49d490d68d5cb3d26a -> 
+  custom:scripting/monoscript/fileName/TextureImporterDataProvider.cs: d68f5d5325387f4e38fdcf2610c72ce3 -> 
+  custom:scripting/monoscript/fileName/SpriteEditorMenu.cs: f9042f312a91c162ede0d5de48225240 -> 
+  custom:scripting/monoscript/fileName/ISpriteEditorDataProvider.cs: 4c01add71bf03a3e1afff21bbd534ee9 -> 
+  custom:scripting/monoscript/fileName/IUndoSystem.cs: 841a069a843e48d57d362ca08bca21d4 -> 
+  custom:scripting/monoscript/fileName/SpritePolygonModeModuleView.cs: db8ddbee5a89c636987047f4602001ef -> 
+  custom:scripting/monoscript/fileName/SpriteEditorData.cs: 79e0d970ecf11ef3020398e38672548f -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/SpriteEditorWindowSettings.cs: 8e59c26ada2085b3ebaa83fd01af70e3 -> 
+  custom:scripting/monoscript/fileName/SpriteFrameModuleBaseView.cs: 72abaa53c3c1184e23d4d9a45f62d8c2 -> 
+  custom:scripting/monoscript/fileName/IAssetDatabase.cs: c40b958675a6cd5b519fa6ca497fede4 -> 
+  custom:scripting/monoscript/fileName/SpriteFrameModule.cs: f07011b3ec3622062bef733dc29fedf0 -> 
+  custom:scripting/monoscript/fileName/ShapeEditorRectSelection.cs: 1696d724b33ef6168949bbdce78d19c6 -> 
+  custom:scripting/monoscript/fileName/TextureImporterDataProviderImplementation.cs: ffb9fda6ca225aa106e9fa84455f4e60 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/SpriteUtilityWindow.cs: 4827aafd0c4d893166845eac1266c4ed -> 
+  custom:scripting/monoscript/fileName/SpriteFrameModuleBase.cs: 82472910b376b3c28a6f5b31b28f5f51 -> 
+  custom:scripting/monoscript/fileName/SpriteFrameModuleView.cs: f07011b3ec3622062bef733dc29fedf0 -> 
+  custom:scripting/monoscript/fileName/SpriteAnimator.cs:  -> e2b24012bc38adaa22cc290f05a5d03e
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp-Editor:  -> 145cc0f66aad37294b7ab513a3e9a6e9
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp:  -> a43c997cb3aa481abd380992956d160f
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 9.93 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1 unused Assets / (3.1 KB). Loaded Objects now: 3696.
+Memory consumption went from 74.2 MB to 74.2 MB.
+Total: 9.345400 ms (FindLiveObjects: 0.396800 ms CreateObjectMapping: 0.327700 ms MarkObjects: 8.576500 ms  DeleteObjects: 0.041900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/SpriteEditorWindow.cs: 1629bd700639d5abf7ee9c1a15128fda -> 
+  custom:scripting/monoscript/fileName/SpriteRect.cs: 8da6d12a5fbd75a0eba31cfa62842428 -> 
+  custom:scripting/monoscript/fileName/ISpriteEditorModule.cs: f35f8b8d39dcfd448fbbe9ea48566c2f -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/MenuItems.cs: 3ea3522373e3b4d2ef39113c39531efd -> 
+  custom:scripting/monoscript/fileName/DefaultSpriteNameFileIdDataProvider.cs: cd965ed390b21ec0302c3211a9f903ff -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/ShapeEditor.cs: 7eba0c642af179a392c34e527393b30b -> 
+  custom:scripting/monoscript/fileName/SpritePolygonModeModule.cs: 8b4aa126b968b0772b9e20476364e690 -> 
+  custom:scripting/precompiled-assembly-types:Unity.2D.Sprite.Editor: 17bc6c182f43764addce77b58cdd60c9 -> 
+  custom:scripting/monoscript/fileName/ItemCreationUtility.cs: d1c4ddba747ed633116f555c0d69ace7 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/SpriteEditorHandles.cs: 8b78502b9b56b3c556563a6e935b52ad -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/SpriteNameFileIdPair.cs: 8dab74045e538d5698ea3c4caed3e48c -> 
+  custom:scripting/monoscript/fileName/IGL.cs: 8903f8a1304142ec1aefe33b7a4db28c -> 
+  custom:scripting/monoscript/fileName/SpritePhysicsShapeModule.cs: 35688b9e178698712b557d50761dc7c2 -> 
+  custom:scripting/monoscript/fileName/ITexture.cs: dbb4c87e1c028ce779185d5d3d566460 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/IEvent.cs: c25d501578d8ebe48d7b30415b0df4c5 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/SpriteOutlineModule.cs: 249fecf584323de7d2fd0b14e9a4944c -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/SpriteEditorUtility.cs: 7e2d1f2cb427fd67c5461f9431375c3a -> 
+  custom:scripting/monoscript/fileName/SpriteSecondaryTexturesModule.cs: 8f361de5bdfd731e220c415240ad033f -> 
+  custom:scripting/monoscript/fileName/IGUIUtility.cs: cad79017f17454feb4e1799b1c42f87c -> 
+  custom:scripting/monoscript/fileName/IHandles.cs: d2780a18a3844e49d490d68d5cb3d26a -> 
+  custom:scripting/monoscript/fileName/TextureImporterDataProvider.cs: d68f5d5325387f4e38fdcf2610c72ce3 -> 
+  custom:scripting/monoscript/fileName/SpriteEditorMenu.cs: f9042f312a91c162ede0d5de48225240 -> 
+  custom:scripting/monoscript/fileName/ISpriteEditorDataProvider.cs: 4c01add71bf03a3e1afff21bbd534ee9 -> 
+  custom:scripting/monoscript/fileName/IUndoSystem.cs: 841a069a843e48d57d362ca08bca21d4 -> 
+  custom:scripting/monoscript/fileName/SpritePolygonModeModuleView.cs: db8ddbee5a89c636987047f4602001ef -> 
+  custom:scripting/monoscript/fileName/SpriteEditorData.cs: 79e0d970ecf11ef3020398e38672548f -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/SpriteEditorWindowSettings.cs: 8e59c26ada2085b3ebaa83fd01af70e3 -> 
+  custom:scripting/monoscript/fileName/SpriteFrameModuleBaseView.cs: 72abaa53c3c1184e23d4d9a45f62d8c2 -> 
+  custom:scripting/monoscript/fileName/IAssetDatabase.cs: c40b958675a6cd5b519fa6ca497fede4 -> 
+  custom:scripting/monoscript/fileName/SpriteFrameModule.cs: f07011b3ec3622062bef733dc29fedf0 -> 
+  custom:scripting/monoscript/fileName/ShapeEditorRectSelection.cs: 1696d724b33ef6168949bbdce78d19c6 -> 
+  custom:scripting/monoscript/fileName/TextureImporterDataProviderImplementation.cs: ffb9fda6ca225aa106e9fa84455f4e60 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/SpriteUtilityWindow.cs: 4827aafd0c4d893166845eac1266c4ed -> 
+  custom:scripting/monoscript/fileName/SpriteFrameModuleBase.cs: 82472910b376b3c28a6f5b31b28f5f51 -> 
+  custom:scripting/monoscript/fileName/SpriteFrameModuleView.cs: f07011b3ec3622062bef733dc29fedf0 -> 
+  custom:scripting/monoscript/fileName/SpriteAnimator.cs:  -> e2b24012bc38adaa22cc290f05a5d03e
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp-Editor:  -> 145cc0f66aad37294b7ab513a3e9a6e9
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp:  -> a43c997cb3aa481abd380992956d160f
+========================================================================
+Received Import Request.
+  Time since last request: 183.493213 seconds.
+  path: Assets/ExampleTasks/ShootSubmarines/Submarine.prefab
+  artifactKey: Guid(a82ac701cb9f3644296becd7087ba3b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleTasks/ShootSubmarines/Submarine.prefab using Guid(a82ac701cb9f3644296becd7087ba3b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 3 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 3 workers.
+ -> (artifact id: '3aeeb5873655ee9f43db4da9bb01b9a9') in 1.378077 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.002080 seconds.
+  path: Assets/ExampleTasks/ShootSubmarines/ShootSubmarinesMinigame.prefab
+  artifactKey: Guid(ee7104bfad540ce43aff2165902808ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleTasks/ShootSubmarines/ShootSubmarinesMinigame.prefab using Guid(ee7104bfad540ce43aff2165902808ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 3 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 3 workers.
+ -> (artifact id: '6fbe4a7dfaa9e70ce6f8279222ec6d52') in 0.413318 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23

@@ -13,7 +13,7 @@ While the mod supports swapping vanilla tasks, the highlight feature is the abil
 > [!IMPORTANT]
 > **This mod is still in BETA** <br>
 > Issues are expected. Fixes are coming soon. <br>
-> Any and all feedback is accepted. You can DM me on [Discord](https://discord.com/users/1044631490165755914), or create an issue.
+> Any and all feedback is accepted. Please join the [Discord server](https://discord.gg/kU6dgkRwAB) for support and more information.
 
 ## Installation Guide
 - Unzip the **.zip** file in the latest release. <br>

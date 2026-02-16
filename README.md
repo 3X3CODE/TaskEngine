@@ -85,7 +85,7 @@ TaskEngine automatically handles loading your task into the game, however you ne
 - **secondScale:** the scale of the secondGameObject.
 - **Ship:** the map you want your task to be part of. Ensure the task has the correct TaskType and the Console Name to prevent conflicts.
 
-Need any support regarding these features? reach out to me on Discord. We will be creating a discord server for these mods soon.
+Need any support regarding these features? join the [Discord server](https://discord.gg/kU6dgkRwAB) for support.
 
 > [!WARNING]
 > This mod requires **[BepInEx](https://builds.bepinex.dev/projects/bepinex_be)** and **[Reactor](https://github.com/nuclearpowered/reactor)** to function properly. <br>

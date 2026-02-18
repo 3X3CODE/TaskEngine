@@ -1,3 +1,7 @@
+<p align="center">
+    <img src="Resources/GitHubBanner.png" width="100%">
+</p>
+
 # TaskEngine
 TaskEngine is an Among Us mod that enhances your task experience in Among Us. 
 While the mod supports swapping vanilla tasks, the highlight feature is the ability of adding your own **Custom Tasks** into the game.<br>

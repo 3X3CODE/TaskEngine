@@ -6,7 +6,7 @@
 TaskEngine is an Among Us mod that enhances your task experience in Among Us. 
 While the mod supports swapping vanilla tasks, the highlight feature is the ability of adding your own **Custom Tasks** into the game.<br>
 >[!WARNING]
->This mod is not known to work with **LevelImposter**. However we are researching the possibility.
+>This mod is compatible with LevelImposter, however there are certain limitations.
 
 ## Features
 - Swap vanilla tasks <br>
@@ -81,7 +81,7 @@ TaskEngine automatically handles loading your task into the game, however you ne
 - **firstGameObject:** the name of the main Prefab GameObject. This is the GameObject your first class gets added to.
 - **secondGameObject:** the name of the second GameObject. This is also optional.
 - **bundleName:** the name of the assetbundle that contains the Prefabs.
-- **taskType:** a unique id given to your task. By default, ascending from 130 is fine however, 160 or higher is reccomended.
+- **taskType:** a unique id given to your task. Start from 205 and ascend.
 - **replaceTask:** the TaskType of the base game task you want to replace.
 - **consoleName:** the name of the console you want your Custom Task to be part of.
 - **maxStep and showStep:** the settings of the maximum step your task has and if it needs to show it.

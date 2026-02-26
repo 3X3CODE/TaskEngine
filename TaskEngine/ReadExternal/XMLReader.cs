@@ -92,14 +92,14 @@ public class Executor : MonoBehaviour
             monobehaviourName = "Submarine",
             firstGameObject = "ShootSubmarinesMinigame",
             secondGameObject = "Submarine",
-            bundleName = "examples-win",
-            taskType = 0x80,
+            bundleName = "shootsubmarines",
+            taskType = 0xc9,
             replaceTask = TaskTypes.AssembleArtifact,
             consoleName = "AssembleArtifactConsole",
             maxStep = 20,
             showStep = true,
             ship = "Fungle",
-            firstScale = new ScaleData { X=1, Y=1, Z=1 },
+            firstScale = new ScaleData { X=0.3f, Y=0.3f, Z=0.3f },
             secondScale = new ScaleData { X=1, Y=1, Z=1}
         });
         

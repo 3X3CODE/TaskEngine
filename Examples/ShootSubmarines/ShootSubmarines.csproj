@@ -11,9 +11,18 @@
         <PackageReference Include="Reactor" Version="2.3.1"/>
         <PackageReference Include="BepInEx.Unity.IL2CPP" Version="6.0.0-be.735" Private="false" ExcludeAssets="runtime;native"/>
         <PackageReference Include="AmongUs.GameLibs.Steam" Version="2025.11.18" PrivateAssets="all" />
-
         <PackageReference Include="BepInEx.AutoPlugin" Version="1.1.0" PrivateAssets="all"/>
         <PackageReference Include="BepInEx.IL2CPP.MSBuild" Version="2.1.0-rc.1" PrivateAssets="all" ExcludeAssets="runtime"/>
     </ItemGroup>
+
+    <ItemGroup>
+      <Reference Include="TaskEngine">
+        <HintPath>..\..\TaskEngine\bin\Debug\net6.0\TaskEngine.dll</HintPath>
+      </Reference>
+    </ItemGroup>
+
+    <Target Name="PostBuild" AfterTargets="PostBuildEvent">
+      <Exec Command="copy /Y &quot;$(TargetPath)&quot; &quot;%AppData%\dev.allofus.starlight\profiles\unityexplorer-1771502444922\BepInEx\plugins\CustomTasks&quot;&#xA;&#xA;copy /Y &quot;$(TargetPath)&quot; &quot;%AppData%\dev.allofus.starlight\profiles\task-engine-1771501165752\BepInEx\plugins\CustomTasks&quot;" />
+    </Target>
 
 </Project>

@@ -1,11 +1,23 @@
 <Project Sdk="Microsoft.NET.Sdk">
     <PropertyGroup>
         <TargetFramework>net6.0</TargetFramework>
-        <LangVersion>12.0</LangVersion>
+        <LangVersion>latest</LangVersion>
         <DebugType>embedded</DebugType>
         <Nullable>enable</Nullable>
-        <VersionPrefix>0.0.1</VersionPrefix>
-        <Description>TaskEngine</Description>
+        <VersionPrefix>0.1.0</VersionPrefix>
+        
+        <Description>TaskEngine provides an easy interface to add your own custom tasks into Among Us.</Description>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <PackageId>AmongTheMods.TaskEngine</PackageId>
+        <Title>Task Engine</Title>
+        <Authors>Among The Mods</Authors>
+        <Copyright>Copyright (c) 2026 - Among The Mods</Copyright>
+        <PackageProjectUrl>https://github.com/3X3CODE/TaskEngine</PackageProjectUrl>
+        <PackageLicenseUrl>GPL-3.0</PackageLicenseUrl>
+        <RepositoryUrl>https://github.com/3X3CODE/TaskEngine</RepositoryUrl>
+        <RepositoryType>git</RepositoryType>
+        <PackageTags>Among Us; Tasks; Custom; Framework; API; Task Engine; Mods; Modding</PackageTags>
+        <PackageReleaseNotes>Initial release</PackageReleaseNotes>
     </PropertyGroup>
 
     <ItemGroup>
@@ -26,6 +38,6 @@
     </Target>
 
     <Target Name="PostBuild" AfterTargets="PostBuildEvent">
-      <Exec Command="copy /Y &quot;F:\Games\Among Us\Projects\TaskEngine\TaskEngine\bin\Debug\net6.0\TaskEngine.dll&quot; &quot;F:\Games\Among Us\Mods\UnityExplorer\BepInEx\plugins\&quot;&#xA;&#xA;start &quot;&quot; &quot;F:\Games\Among Us\Mods\UnityExplorer\Among Us.exe&quot;" />
+      <Exec Command="copy /Y &quot;$(TargetPath)&quot; &quot;%AppData%\dev.allofus.starlight\profiles\task-engine-1771501165752\BepInEx\plugins\&quot;&#xA;&#xA;copy /Y &quot;$(TargetPath)&quot; &quot;%AppData%\dev.allofus.starlight\profiles\unityexplorer-1771502444922\BepInEx\plugins&quot;" />
     </Target>
 </Project>

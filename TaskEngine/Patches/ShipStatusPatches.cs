@@ -1,4 +1,5 @@
 using HarmonyLib;
+using TaskEngine.Assets;
 using TaskEngine.ReadExternal;
 using TaskEngine.TaskHelpers;
 using UnityEngine;
@@ -12,12 +13,17 @@ public static class FungleStatusPatches
     public static void applyTasks(ShipStatus __instance)
     {
         GameObject refHolder = new GameObject("ReferenceHolder");
+        GameObject scripts = new GameObject("ScriptHolder");
+        AudioLoader audio = scripts.AddComponent<AudioLoader>();
         Executor executor = refHolder.AddComponent<Executor>();
         ScriptReader reader = refHolder.AddComponent<ScriptReader>();
         refHolder.SetActive(false);
         reader.EnsureLoad();
         executor.EnsureLoad();
+        audio.EnsureLoad();
         refHolder.transform.SetParent(__instance.transform);
+        scripts.transform.SetParent(__instance.transform);
+        string mapName = __instance.gameObject.name;
         
         foreach (CustomTask task in executor.CustomTasks)
         {
@@ -71,7 +77,15 @@ public static class FungleStatusPatches
                     break;
                 
                 default:
-                    TaskEnginePlugin.LogSource.LogInfo($"Could not find the ship: {task.ShipName}");
+                    if (task.ShipName == mapName && __instance.Type == (ShipStatus.MapType)7)
+                    {
+                        TaskEnginePlugin.LogSource.LogInfo("[ShipStatus] Instance identified as Level Imposter");
+                        
+                        TaskManager.InjectCustomMinigame(__instance, task.customType, task.minigame, task.baseType,
+                            task.consoleName, task.maxStep, task.showStep);
+                    }
+                    else TaskEnginePlugin.LogSource.LogError($"Current ship was not matched as: {task.ShipName}");
+                    
                     break;
                 
             }
@@ -123,7 +137,14 @@ public static class FungleStatusPatches
                     break;
                 
                 default:
-                    TaskEnginePlugin.LogSource.LogInfo($"Could not find the ship: {task.ship}");
+                    if (task.ship == mapName && __instance.Type == (ShipStatus.MapType)7)
+                    {
+                        TaskEnginePlugin.LogSource.LogInfo("[ShipStatus] Instance identified as Level Imposter");
+                        
+                        TaskManager.ReplaceBaseTask(__instance, task.firstTask, task.secondtask, task.firstConsole, task.secondConsole, task.overrideSteps, task.firstStep, task.showFirst, task.secondStep, task.showSecond);
+                    }
+                    
+                    else TaskEnginePlugin.LogSource.LogError($"Could not find the ship: {task.ship}");
                     break;
                 
             }

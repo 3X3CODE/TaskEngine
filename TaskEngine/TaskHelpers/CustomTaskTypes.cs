@@ -25,5 +25,5 @@ public readonly struct CustomTaskTypes
         return _names.TryGetValue(id, out name);
     }
 
-    public static readonly CustomTaskTypes PlugLeaks = new(0x80, "Plug Leaks");
+    public static readonly CustomTaskTypes PlugLeaks = new(0xc8, "Plug Leaks");
 }

@@ -2,7 +2,6 @@ using System.IO;
 using System.Linq;
 using System.Reflection;
 using UnityEngine;
-using BepInEx;
 using Il2CppInterop.Runtime;
 
 namespace TaskEngine.Assets;
@@ -10,7 +9,7 @@ namespace TaskEngine.Assets;
 // this assetloader code was copied from MainMenuEnhanced
 public class AssetLoader
 {
-    public static GameObject LoadAsset(string bundleName, string assetName)
+    public static T LoadAsset<T>(string bundleName, string assetName) where T : Object
     {
         Assembly asm = Assembly.GetExecutingAssembly();
 
@@ -34,14 +33,14 @@ public class AssetLoader
                 return null;
             }
 
-            var asset = bundle.LoadAsset(assetName, Il2CppInterop.Runtime.Il2CppType.Of<GameObject>());
-            GameObject prefab = asset.Cast<GameObject>();
+            var asset = bundle.LoadAsset(assetName, Il2CppType.Of<T>());
+            T prefab = asset.Cast<T>();
             bundle.Unload(false);
             return prefab;
         }
     }
     
-    public static GameObject LoadAssetFromFile( string bundleName, string assetName)
+    public static T LoadAssetFromFile<T>(string bundleName, string assetName) where T : Object
     {
         string fullPath = Path.Combine(CustomPaths.taskFolder, bundleName);
 
@@ -59,15 +58,16 @@ public class AssetLoader
             return null;
         }
         
-        var asset = bundle.LoadAsset(assetName, Il2CppInterop.Runtime.Il2CppType.Of<GameObject>());
+        var asset = bundle.LoadAsset(assetName, Il2CppType.Of<T>());
     
         if (asset == null)
         {
+            TaskEnginePlugin.LogSource.LogError($"[AssetLoader] Failed to load Asset: {assetName} from bundle: {bundleName}");
             bundle.Unload(true);
             return null;
         }
 
-        GameObject prefab = asset.Cast<GameObject>();
+        T prefab = asset.Cast<T>();
         
         bundle.Unload(false);
 

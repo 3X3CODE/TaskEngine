@@ -11,9 +11,12 @@ public class TaskManager
     string folderPath = Path.Combine(Paths.PluginPath, "CustomTasks");
     
     public NormalPlayerTask[] AllCustomTasks;
-    
-    public static void InjectCustomMinigame(ShipStatus shipStatus, TaskTypes customType, Minigame minigame, TaskTypes baseType, string consoleName, int maxStep, bool showStep)
+
+    public static void InjectCustomMinigame(ShipStatus shipStatus, TaskTypes customType, Minigame minigame,
+        TaskTypes baseType, string consoleName, int maxStep, bool showStep)
     {
+        TaskEnginePlugin.LogSource.LogInfo("[InjectCustomMinigame] Matching ship was found");
+        
         TaskEnginePlugin.LogSource.LogInfo("Starting custom minigame injection");
         NormalPlayerTask minigameNPT = null;
 
@@ -37,7 +40,7 @@ public class TaskManager
                 }
             }
         }
-        
+
         if (minigameNPT == null)
         {
             foreach (NormalPlayerTask playerTask in shipStatus.LongTasks)
@@ -50,23 +53,40 @@ public class TaskManager
             }
         }
 
-        if (minigameNPT == null) TaskEnginePlugin.LogSource.LogInfo("BaseMinigame wasn't found");
+        if (minigameNPT == null)
+        {
+            TaskEnginePlugin.LogSource.LogError("BaseMinigame wasn't found. Exiting procedure...");
+            return;
+        }
 
         minigameNPT.TaskType = customType;
         minigameNPT.MaxStep = maxStep;
         minigameNPT.ShowTaskStep = showStep;
         minigameNPT.MinigamePrefab = minigame;
 
-        Console taskConsole = GameObject.Find(consoleName).GetComponent<Console>();
+        Console taskConsole;
+        
+        try
+        {
+            taskConsole = GameObject.Find(consoleName).GetComponent<Console>();
+        }
+        catch (Exception e)
+        {
+            TaskEnginePlugin.LogSource.LogError($"[InjectCustomMinigame] Error in finding the console {consoleName}. Exiting procedure...");
+            return;
+        }
+        
         taskConsole.TaskTypes[0] = minigameNPT.TaskType;
         
-        TaskEnginePlugin.LogSource.LogInfo("Successfully completed Custom Task injection");
+        TaskEnginePlugin.LogSource.LogInfo("[InjectCustomMinigame] Successfully completed Custom Task injection");
     }
 
     public static void ReplaceBaseTask(ShipStatus shipStatus, TaskTypes type1, TaskTypes type2, string firstConsole, string secondConsole, bool overrideSteps, int firstStep, bool showFirst, int secondStep, bool showSecond)
     {
-        Console console1 = null;
-        Console console2 = null;
+        TaskEnginePlugin.LogSource.LogInfo("[ReplaceBaseTask] Starting replace task procedure");
+        
+        Console console1;
+        Console console2;
 
         NormalPlayerTask task1 = null;
         NormalPlayerTask task2 = null;
@@ -79,7 +99,7 @@ public class TaskManager
         }
         catch (Exception e)
         {
-            TaskEnginePlugin.LogSource.LogInfo($"Error in finding the consoles: {firstConsole}, {secondConsole}");
+            TaskEnginePlugin.LogSource.LogError($"[ReplaceBaseTask] Error in finding one or both of the consoles: {firstConsole}, {secondConsole}");
             return;
         }
 
@@ -89,7 +109,7 @@ public class TaskManager
             if (task.TaskType == type2) task2 = task;
         }
 
-        if (task1 == null && task2 == null)
+        if (task1 == null || task2 == null)
         {
             foreach (NormalPlayerTask task in shipStatus.LongTasks)
             {
@@ -97,13 +117,19 @@ public class TaskManager
                 if (task.TaskType == type2) task2 = task;
             }
         }
-        if (task1 == null && task2 == null)
+        if (task1 == null || task2 == null)
         {
             foreach (NormalPlayerTask task in shipStatus.CommonTasks)
             {
                 if (task.TaskType == type1) task1 = task;
                 if (task.TaskType == type2) task2 = task;
             }
+        }
+
+        if (task1 == null || task2 == null)
+        {
+            TaskEnginePlugin.LogSource.LogError($"[ReplaceBaseTask] Error in finding one or both of the tasks: {type1}, {type2}. Exiting procedure...");
+            return;
         }
 
         Minigame task1Prefab = task1.MinigamePrefab;
@@ -115,36 +141,35 @@ public class TaskManager
         
         try
         {
-            if (task1 != null && task2 != null)
+            console1.TaskTypes[0] = type2;
+            console2.TaskTypes[0] = type1;
+
+            task1.TaskType = type2;
+            task1.MinigamePrefab = task2Prefab;
+            task1.MaxStep = task2Step;
+            task1.ShowTaskStep = task2StepShow;
+            
+            task2.TaskType = type1;
+            task2.MinigamePrefab = task1Prefab;
+            task2.MaxStep = task1Step;
+            task2.ShowTaskStep = task1StepShow;
+
+            if (overrideSteps)
             {
-                console1.TaskTypes[0] = type2;
-                console2.TaskTypes[0] = type1;
-
-                task1.TaskType = type2;
-                task1.MinigamePrefab = task2Prefab;
-                task1.MaxStep = task2Step;
-                task1.ShowTaskStep = task2StepShow;
-                
-                task2.TaskType = type1;
-                task2.MinigamePrefab = task1Prefab;
-                task2.MaxStep = task1Step;
-                task2.ShowTaskStep = task1StepShow;
-
-                if (overrideSteps)
-                {
-                    task1.MaxStep = firstStep;
-                    task1.ShowTaskStep = showFirst;
-                    task2.MaxStep = secondStep;
-                    task2.ShowTaskStep = showSecond;
-                }
+                task1.MaxStep = firstStep;
+                task1.ShowTaskStep = showFirst;
+                task2.MaxStep = secondStep;
+                task2.ShowTaskStep = showSecond;
             }
+            
         }
         catch (System.Exception e)
         {
-            TaskEnginePlugin.LogSource.LogError("BaseTaskSwap failed");
-            throw;
+            TaskEnginePlugin.LogSource.LogError("[ReplaceBaseTask] Operation failed");
+            return;
         }
-
+        
+        TaskEnginePlugin.LogSource.LogInfo("[ReplaceBaseTask] Successfully completed Task Swap");
     }
     
     public string RemoveSpaces(string input)

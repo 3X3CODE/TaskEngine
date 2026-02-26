@@ -15,9 +15,10 @@ namespace TaskEngine;
 // Developed by 3X3C | 2026.02.08 | TaskEngine
 // Designed to enhance your task experience
 
-// Last checked 2026.02.15
+// Last checked 2026.02.26
 
 // Why are you reading this?
+// Contact exec_19 on Discord for further information
 
 [BepInAutoPlugin]
 [BepInProcess("Among Us.exe")]
@@ -40,7 +41,7 @@ public partial class TaskEnginePlugin : BasePlugin
 
         LogSource = base.Log;
         
-        ReactorCredits.Register("TaskEngine", "0.0.1", false, null);
+        ReactorCredits.Register("TaskEngine", "0.1.0", true, null);
         Harmony.PatchAll(Assembly.GetExecutingAssembly());
     }
 }

@@ -130,32 +130,32 @@ public class Executor : MonoBehaviour
         }
         else
         {
-            //if (!config.IsActive) return;
-            //TaskEnginePlugin.LogSource.LogInfo("XML invoke modifications");
-            ExecuteModifications(Load());
+            ExecuteModifications();
         }
         
         #endregion
     }
 
-    // Removed hot reloading that was present in the default script because I deemed it not necessary
-
-    #region ConfigLoader
-    public Config Load()
+    public void ExecuteModifications()
     {
+        Config config;
+        
         XmlSerializer serializer = new XmlSerializer(typeof(Config));
         using (FileStream fs = new FileStream(path, FileMode.Open))
         {
-            //lastSaved = File.GetLastWriteTime(path);
-            TaskEnginePlugin.LogSource.LogInfo("XML load");
-            return (Config)serializer.Deserialize(fs);
+            TaskEnginePlugin.LogSource.LogInfo("Trying to load taskConfig...");
+            try
+            {
+                config = (Config)serializer.Deserialize(fs);
+            }
+            catch (Exception e)
+            {
+                TaskEnginePlugin.LogSource.LogError($"Error loading file: {e.Message}");
+                return;
+            } 
+            TaskEnginePlugin.LogSource.LogInfo("Loaded taskConfig");
         }
-    }
-    
-    #endregion
-
-    public void ExecuteModifications(Config config)
-    {
+        
         if (!config.IsActive) return;
         
         #region AddCustomTasksToList
@@ -163,17 +163,25 @@ public class Executor : MonoBehaviour
         foreach (var task in config.CustomTasks)
         {
             if (!task.Active) continue;
+
+            // A wrong TaskType is caught by the deserializer itself but im going to leave this in here
+            
+            if (!Enum.IsDefined(typeof(TaskTypes), task.replaceTask))
+            {
+                TaskEnginePlugin.LogSource.LogError($"The TaskType: {task.replaceTask} provided to replaceTask is invalid. Exiting...");
+                continue;
+            }
             
             var taskType = new CustomTaskTypes(task.taskType, task.Name);
             TaskRegistry.TaskNames[task.taskType] = task.Name;
             
             ScriptReader reader = gameObject.GetComponent<ScriptReader>();
 
-            GameObject mainMinigameAsset = AssetLoader.LoadAssetFromFile(task.bundleName, task.firstGameObject);
+            GameObject mainMinigameAsset = AssetLoader.LoadAssetFromFile<GameObject>(task.bundleName, task.firstGameObject);
             
             if (mainMinigameAsset == null)
             {
-                TaskEnginePlugin.LogSource.LogInfo($"[XMLReader] Failed to load {task.firstGameObject}");
+                TaskEnginePlugin.LogSource.LogError($"[XMLReader] Failed to load {task.firstGameObject}");
                 continue;
             }
             
@@ -186,11 +194,11 @@ public class Executor : MonoBehaviour
             GameObject secondMinigame = null;
             if (!string.IsNullOrEmpty(task.secondGameObject))
             {
-                GameObject secondMinigameAsset = AssetLoader.LoadAssetFromFile(task.bundleName, task.secondGameObject);
+                GameObject secondMinigameAsset = AssetLoader.LoadAssetFromFile<GameObject>(task.bundleName, task.secondGameObject);
                 
                 if (secondMinigameAsset == null)
                 {
-                    TaskEnginePlugin.LogSource.LogInfo($"[XMLReader] Failed to load {task.secondGameObject}");
+                    TaskEnginePlugin.LogSource.LogError($"[XMLReader] Failed to load {task.secondGameObject}");
                     continue;
                 }
                 
@@ -199,7 +207,7 @@ public class Executor : MonoBehaviour
 
                 if (secondScript == null)
                 {
-                    TaskEnginePlugin.LogSource.LogInfo($"[XMLReader] Failed to load script {task.monobehaviourName}");
+                    TaskEnginePlugin.LogSource.LogError($"[XMLReader] Failed to load script {task.monobehaviourName}");
                     continue;
                 }
                     
@@ -214,7 +222,7 @@ public class Executor : MonoBehaviour
             
             if (mainScript == null)
             {
-                TaskEnginePlugin.LogSource.LogInfo($"[XMLReader] Failed to load script {task.scriptName}");
+                TaskEnginePlugin.LogSource.LogError($"[XMLReader] Failed to load script {task.scriptName}");
                 continue;
             }
             

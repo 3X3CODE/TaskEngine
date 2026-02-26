@@ -5,6 +5,7 @@ namespace TaskEngine.Patches;
 
 // due to CustomTaskTypes != TaskTypes, we need to make sure the task name shows up properly
 // currently bypassing the translator for now
+// perhaps I should add localization?
 
 [HarmonyPatch(typeof(TranslationController), nameof(TranslationController.GetString), typeof(TaskTypes))]
 public class TranslationControllerPatches

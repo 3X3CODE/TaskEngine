@@ -4,6 +4,8 @@ using System.IO;
 using System.Reflection;
 using Il2CppInterop.Runtime.Injection;
 using Reactor.Utilities.Attributes;
+using TaskEngine.Assets;
+using TaskEngine.MinigameBlock;
 using UnityEngine;
 
 namespace TaskEngine.ReadExternal;
@@ -21,8 +23,6 @@ public class ScriptReader : MonoBehaviour
     
     public void EnsureLoad()
     {
-        Type minigameType = typeof(Minigame);
-        
         string[] dllFiles = Directory.GetFiles(CustomPaths.taskFolder, "*.dll");
         foreach (string dll in dllFiles)
         {
@@ -32,12 +32,25 @@ public class ScriptReader : MonoBehaviour
 
             foreach (Type type in types)
             {
-                TaskEnginePlugin.LogSource.LogInfo(type.Name);
-                    
-                if (type.IsClass && type.IsPublic)
+                if (type.IsClass && type.IsPublic && type.IsSubclassOf(typeof(CustomMinigame)))
                 {
                     if (allCustomMinigames.Contains(type)) continue;
                     allCustomMinigames.Add(type);
+
+                    // Specific initialization for the LoadAudio attribute
+                    
+                    FieldInfo[] fields = type.GetFields(BindingFlags.Public | BindingFlags.Static);
+
+                    foreach (FieldInfo field in fields)
+                    {
+                        var attr = field.GetCustomAttribute<LoadAudioAttribute>();
+                        
+                        if (Attribute.IsDefined(field, typeof(LoadAudioAttribute)) && attr != null)
+                        {
+                            AudioLoader.allAttributes.Add(field);
+                        }
+                    }
+                    
                     TaskEnginePlugin.LogSource.LogInfo($"[ScriptReader] Successfully added class: {type.Name}");
                 }
             }
@@ -60,7 +73,7 @@ public class ScriptReader : MonoBehaviour
             }
         }
         
-        if (foundScript == null) TaskEnginePlugin.LogSource.LogInfo($"The custom task script: {scriptName} wasn't found.");
+        if (foundScript == null) TaskEnginePlugin.LogSource.LogError($"The custom task script: {scriptName} wasn't found.");
 
         return foundScript;
 

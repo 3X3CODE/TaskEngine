@@ -95,7 +95,7 @@ Need any support regarding these features? join the [Discord server](https://dis
 > This mod requires **[BepInEx](https://builds.bepinex.dev/projects/bepinex_be)** and **[Reactor](https://github.com/nuclearpowered/reactor)** to function properly. <br>
 
 >[!NOTE]
->This mod is licensed under GPL v3.0. <br>
+>This mod is licensed under LGPL v2.1. <br>
 >[Copyright (C) 2026 3X3C](https://github.com/3X3CODE/TaskEngine/blob/master/LICENSE) <br>
 
 <sub>

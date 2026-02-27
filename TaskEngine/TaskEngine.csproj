@@ -13,11 +13,12 @@
         <Authors>Among The Mods</Authors>
         <Copyright>Copyright (c) 2026 - Among The Mods</Copyright>
         <PackageProjectUrl>https://github.com/3X3CODE/TaskEngine</PackageProjectUrl>
-        <PackageLicenseUrl>GPL-3.0</PackageLicenseUrl>
+        <PackageLicenseExpression>LGPL-2.1-or-later</PackageLicenseExpression>
         <RepositoryUrl>https://github.com/3X3CODE/TaskEngine</RepositoryUrl>
         <RepositoryType>git</RepositoryType>
         <PackageTags>Among Us; Tasks; Custom; Framework; API; Task Engine; Mods; Modding</PackageTags>
         <PackageReleaseNotes>Initial release</PackageReleaseNotes>
+        <PackageReadmeFile>NUGET.md</PackageReadmeFile>
     </PropertyGroup>
 
     <ItemGroup>
@@ -31,6 +32,10 @@
 
     <ItemGroup>
       <None Remove="Bundles\examples-win" />
+    </ItemGroup>
+    
+    <ItemGroup>
+        <None Include="NUGET.md" Pack="true" PackagePath="\" />
     </ItemGroup>
 
     <Target Name="Copy" AfterTargets="Build" Condition="'$(AmongUs)' != ''">

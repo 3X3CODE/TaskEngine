@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Linq;
 using System.Reflection;
 using Il2CppInterop.Runtime.Injection;
 using Reactor.Utilities.Attributes;
@@ -15,11 +16,9 @@ namespace TaskEngine.ReadExternal;
 [RegisterInIl2Cpp]
 public class ScriptReader : MonoBehaviour
 {
-    public static List<Type> allCustomMinigames = new();
-    public static List<Type> allCustomMonobehaviours = new();
+    public static List<Type> AllCustomMinigames = new();
     
-    public int customMinigameCount => allCustomMinigames.Count;
-    public int customMonobehaviourCount => allCustomMonobehaviours.Count;
+    public int customMinigameCount => AllCustomMinigames.Count;
     
     public void EnsureLoad()
     {
@@ -29,13 +28,25 @@ public class ScriptReader : MonoBehaviour
             TaskEnginePlugin.LogSource.LogInfo("[ScriptReader] DLL found, proceeding to get classes");
             Assembly assembly = Assembly.LoadFrom(dll);
             Type[] types = assembly.GetTypes();
+            
+            var reference = assembly.GetReferencedAssemblies().FirstOrDefault(r => r.Name.Equals("TaskEngine", StringComparison.OrdinalIgnoreCase));
+            if (reference == null) continue;
+            
+            var referenceVersion = reference.Version;
+            var currentVersion = Assembly.GetExecutingAssembly().GetName().Version;
+            if (referenceVersion != currentVersion)
+            {
+                TaskEnginePlugin.LogSource.LogError($"The referenced Assembly version {referenceVersion} does not match current version {currentVersion}");
+                continue;
+            }
 
             foreach (Type type in types)
             {
                 if (type.IsClass && type.IsPublic && type.IsSubclassOf(typeof(CustomMinigame)))
                 {
-                    if (allCustomMinigames.Contains(type)) continue;
-                    allCustomMinigames.Add(type);
+                    if (AllCustomMinigames.Contains(type)) continue;
+                    
+                    AllCustomMinigames.Add(type);
 
                     // Specific initialization for the LoadAudio attribute
                     
@@ -63,7 +74,7 @@ public class ScriptReader : MonoBehaviour
         
         TaskEnginePlugin.LogSource.LogInfo($"Attempting to find class: {scriptName}");
         
-        foreach (Type script in allCustomMinigames)
+        foreach (Type script in AllCustomMinigames)
         {
             if (script.Name == scriptName)
             {

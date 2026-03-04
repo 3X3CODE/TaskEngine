@@ -7,6 +7,7 @@ TaskEngine is an Among Us mod that enhances your task experience in Among Us.
 While the mod supports swapping vanilla tasks, the highlight feature is the ability of adding your own **Custom Tasks** into the game.<br>
 >[!WARNING]
 >This mod is compatible with LevelImposter, however there are certain limitations.
+>Swapping Short and Common tasks are only supported. Multi-step task support is a work in progress.
 
 ## Features
 - Swap vanilla tasks <br>

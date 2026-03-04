@@ -17,7 +17,8 @@ While the mod supports swapping vanilla tasks, the highlight feature is the abil
 > [!IMPORTANT]
 > **This mod is still in BETA** <br>
 > Issues are expected. Fixes are coming soon. <br>
-> Any and all feedback is accepted. Please join the [Discord server](https://discord.gg/kU6dgkRwAB) for support and more information.
+> Any and all feedback is accepted. Please join the [Discord server](https://discord.gg/kU6dgkRwAB) for support and more information. <br>
+> You may find the Nuget Package [here](https://www.nuget.org/packages/AmongTheMods.TaskEngine).
 
 ## Installation Guide
 - Unzip the **.zip** file in the latest release. <br>
